@@ -1,0 +1,147 @@
+
+/* tell css to load fonts */
+@font-face{
+
+  font-family: "Gravity";
+  font-weight: bold;
+  font-style: normal;
+  src: url('fonts/Gravity-Bold.eot');
+  src: url('fonts/Gravity-Bold.eot?#iefix') format ('embedded-opentype'),
+     url('fonts/Gravity-Bold.ttf') format ('truetype');
+}
+@font-face{
+
+  font-family: "Gravity";
+  font-weight: lighter;
+  font-style: normal;
+  src: url('fonts/Gravity-Light.eot');
+  src: url('fonts/Gravity-Light.eot?#iefix') format ('embedded-opentype'),
+     url('fonts/Gravity-Light.ttf') format ('truetype');
+}
+
+@font-face{
+
+  font-family: "Gravity";
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/Gravity-Book.eot');
+  src: url('fonts/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
+     url('fonts/Gravity-Book.ttf') format ('truetype');
+}
+body {
+  background-color:#CAE0DB;
+
+  font-family: sans-serif;
+  padding: 2rem;
+
+}
+
+section {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+section h3 {
+  color:#262261;
+  margin-bottom: 0;
+}
+section p {
+  margin-top: 0;
+}
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+
+}
+
+a.button {
+  
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5ABE8C;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+  
+ 
+a.button:hover, a.button:focus {
+  background-color: #999;
+}
+
+.headerFont{
+  font-family: "Gravity", serif; 
+  font-weight:bold;
+  font-size:25px;
+}
+.subHeadingFont{
+  font-family: "Gravity", serif; 
+  font-weight:normal;
+  font-size:20px;
+}
+.textFont{
+  font-family: "Gravity", serif; 
+  font-weight:normal;
+  font-size:16px;
+}
+
+
+
+
+
+form {
+
+  display: inline-block;
+  padding: 1em;
+  margin-left:50px;
+  
+}
+
+label {
+  display: inline-block;
+  margin-top:10px;
+  margin-right:15px;
+
+}
+
+figure {
+
+  margin-left: 0; /* setting there to be no margin on the left */
+
+}
+select {
+  display:block;
+  margin-top:-30px;
+  margin-left:60px;
+
+}
+ #navigation ul{
+border-style: solid;
+border-width: 1px;
+margin: 0;
+margin-top:20px;
+padding: 0;
+
+list-style-type: none;
+background-image: url(bar.jpg);
+width:185px;
+height:380px;
+}
+
+ #navigation ul li a{
+
+text-decoration: none;
+text-align:center;
+color: black;
+padding: 20px;
+display:block;
+}
+
+ #navigation ul li a:hover {
+color: white;
+background-color: #000;
+}
+
