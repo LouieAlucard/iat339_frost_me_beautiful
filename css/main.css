@@ -1,31 +1,40 @@
 /* Font Import */
+/* Gravity */
 @font-face{
-
   font-family: "Gravity";
   font-weight: bold;
   font-style: normal;
-  src: url('fonts/Gravity-Bold.eot');
-  src: url('fonts/Gravity-Bold.eot?#iefix') format ('embedded-opentype'),
+  src: url('fonts/Gravity/Gravity-Bold.eot');
+  src: url('fonts/Gravity/Gravity-Bold.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Bold.ttf') format ('truetype');
 }
 @font-face{
-
   font-family: "Gravity";
-  font-weight: lighter;
+  font-weight: light;
   font-style: normal;
-  src: url('fonts/Gravity-Light.eot');
-  src: url('fonts/Gravity-Light.eot?#iefix') format ('embedded-opentype'),
+  src: url('fonts/Gravity/Gravity-Light.eot');
+  src: url('fonts/Gravity/Gravity-Light.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Light.ttf') format ('truetype');
 }
 
 @font-face{
-
   font-family: "Gravity";
   font-weight: normal;
   font-style: normal;
-  src: url('fonts/Gravity-Book.eot');
-  src: url('fonts/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
+  src: url('fonts/Gravity/Gravity-Book.eot');
+  src: url('fonts/Gravity/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Book.ttf') format ('truetype');
+}
+
+/* Gravity-Book */
+@font-face {
+	font-family: "Gravity-Book";
+	font-weight: normal;
+	font-style: normal;
+	src:url("fonts/Gravity-Book/Gravity-Book.eot?") format("eot"),
+		url("fonts/Gravity-Book/Gravity-Book.woff") format("woff"),
+		url("fonts/Gravity-Book/Gravity-Book.ttf") format("truetype"),
+		url("fonts/Gravity-Book/Gravity-Book.svg#Gravity-Book") format("svg");
 }
 
 
@@ -36,25 +45,25 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   padding: 2rem;
-
 }
 
 
 /* Textual */
-.headerFont{
-  font-family: "Gravity", serif; 
-  font-weight:bold;
-  font-size:25px;
+h1 {
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: bold;
+  font-size: 1.5rem;
 }
-.subHeadingFont{
-  font-family: "Gravity", serif; 
-  font-weight:normal;
-  font-size:20px;
+
+h2 {
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
+  font-size: 1.2rem;
 }
-.textFont{
-  font-family: "Gravity", serif; 
-  font-weight:normal;
-  font-size:16px;
+
+p {
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
 }
 
 
@@ -77,20 +86,17 @@ a.button:hover, a.button:focus {
 
 
 
-/* Button */
+/* Form */
 form {
-
   display: inline-block;
   padding: 1em;
   margin-left:50px;
-  
 }
 
 label {
   display: inline-block;
   margin-top:10px;
   margin-right:15px;
-
 }
 
 
@@ -108,52 +114,53 @@ select {
 
 
 
-/* navigation */
+/* Navigation */
  #navigation ul{
-border-style: solid;
-border-width: 1px;
-margin: 0;
-margin-top:20px;
-padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0;
+	margin-top:20px;
+	padding: 0;
 
-list-style-type: none;
-background-image: url(../img/bar.jpg);
-width:185px;
-height:380px;
+	list-style-type: none;
+	background-image: url(../img/bar.jpg);
+	width:185px;
+	height:380px;
 }
 
  #navigation ul li a{
-
-text-decoration: none;
-text-align:center;
-color: black;
-padding: 20px;
-display:block;
+	text-decoration: none;
+	text-align:center;
+	color: black;
+	padding: 20px;
+	display:block;
 }
 
  #navigation ul li a:hover {
-color: white;
-background-color: #000;
+	color: white;
+	background-color: #000;
 }
 
 
 
-/* Style Guide sytle */
+/* Style Guide style */
 section {
   margin: 1em 0;
   padding: 0.5em 0;
   border-top: 1px solid #333;
 }
+
 section h3.guide {
   color:#262261;
   margin-bottom: 0;
 }
+
 section p.guide {
   margin-top: 0;
 }
+
 section code {
   background-color: #EEE;
   padding: 0.2em 0.6em;
-
 }
 
