@@ -28,6 +28,8 @@
   src: url('fonts/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Book.ttf') format ('truetype');
 }
+
+
 body {
   background-color:#CAE0DB;
 
@@ -126,7 +128,7 @@ margin-top:20px;
 padding: 0;
 
 list-style-type: none;
-background-image: url(bar.jpg);
+background-image: url(../img/bar.jpg);
 width:185px;
 height:380px;
 }
