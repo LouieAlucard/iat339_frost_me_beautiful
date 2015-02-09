@@ -97,16 +97,13 @@ label {
 
 /* Images */
 figure {
-
   margin-left: 0; /* setting there to be no margin on the left */
-
 }
 
 select {
   display:block;
   margin-top:-30px;
   margin-left:60px;
-
 }
 
 
@@ -147,11 +144,11 @@ section {
   padding: 0.5em 0;
   border-top: 1px solid #333;
 }
-section h3 {
+section h3.guide {
   color:#262261;
   margin-bottom: 0;
 }
-section p {
+section p.guide {
   margin-top: 0;
 }
 section code {
