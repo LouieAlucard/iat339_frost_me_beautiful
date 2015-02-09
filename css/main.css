@@ -16,7 +16,6 @@
   src: url('fonts/Gravity/Gravity-Light.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Light.ttf') format ('truetype');
 }
-
 @font-face{
   font-family: "Gravity";
   font-weight: normal;
@@ -25,6 +24,7 @@
   src: url('fonts/Gravity/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
      url('fonts/Gravity-Book.ttf') format ('truetype');
 }
+
 
 /* Gravity-Book */
 @font-face {
@@ -38,6 +38,7 @@
 }
 
 @import url(http://fonts.googleapis.com/css?family=Alegreya:700italic);
+
 
 
 
