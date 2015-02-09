@@ -1,5 +1,4 @@
-
-/* tell css to load fonts */
+/* Font Import */
 @font-face{
 
   font-family: "Gravity";
@@ -30,50 +29,18 @@
 }
 
 
+
+/* Main Css */
 body {
   background-color:#CAE0DB;
-
   font-family: sans-serif;
+  font-size: 16px;
   padding: 2rem;
 
 }
 
-section {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  border-top: 1px solid #333;
-}
-section h3 {
-  color:#262261;
-  margin-bottom: 0;
-}
-section p {
-  margin-top: 0;
-}
-section code {
-  background-color: #EEE;
-  padding: 0.5em 0.75em;
 
-}
-
-a.button {
-  
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #FFF;
-  background-color: #5ABE8C;
-  border-radius: 0.25em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
-  
- 
-a.button:hover, a.button:focus {
-  background-color: #999;
-}
-
+/* Textual */
 .headerFont{
   font-family: "Gravity", serif; 
   font-weight:bold;
@@ -92,8 +59,25 @@ a.button:hover, a.button:focus {
 
 
 
+/* Button */
+a.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5ABE8C;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+ 
+a.button:hover, a.button:focus {
+  background-color: #999;
+}
 
 
+
+/* Button */
 form {
 
   display: inline-block;
@@ -109,17 +93,25 @@ label {
 
 }
 
+
+
+/* Images */
 figure {
 
   margin-left: 0; /* setting there to be no margin on the left */
 
 }
+
 select {
   display:block;
   margin-top:-30px;
   margin-left:60px;
 
 }
+
+
+
+/* navigation */
  #navigation ul{
 border-style: solid;
 border-width: 1px;
@@ -145,5 +137,26 @@ display:block;
  #navigation ul li a:hover {
 color: white;
 background-color: #000;
+}
+
+
+
+/* Style Guide sytle */
+section {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+section h3 {
+  color:#262261;
+  margin-bottom: 0;
+}
+section p {
+  margin-top: 0;
+}
+section code {
+  background-color: #EEE;
+  padding: 0.2em 0.6em;
+
 }
 
