@@ -12,13 +12,13 @@
 	text-align: center;
 }
 
-.col-5of10 {
-	width: 50%;
+.col-2of12 {
+	width: 16.66%;
 }
 
 
-.col-2of10 {
-	width: 20%;
+.col-10of12 {
+	width: 83.33%;
 }
 
 @media (max-width: 50em) {
