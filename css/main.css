@@ -184,6 +184,7 @@ nav.navigation-side a:hover {
 
 #topNavigation {
    background-color:#9DD8D7;
+   border-radius:0.5em;
 
 }
 #topNavigation a, img {
