@@ -43,6 +43,14 @@
 	margin-left: 10%;
 }
 
+.col-15of20 {
+	width: 75%;
+}
+
+.col-5of20 {
+	width: 25%;
+}
+
 .grid {
 	content: "";
 	display: block;

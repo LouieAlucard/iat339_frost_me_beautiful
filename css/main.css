@@ -148,6 +148,19 @@ nav.navigation-side:before {
     pointer-events: none;
 }
 
+#navigationSide{
+  overflow: hidden;
+  position: relative;
+}
+
+#navigationSideColor {
+  background-color: #9DD8D7;
+  position: absolute;
+  height: 1000%;
+  right:0;
+}
+
+
 nav.navigation-side a{
 	text-decoration: none;
 	text-align: center;
@@ -160,6 +173,9 @@ nav.navigation-side a:hover {
 	color: white;
 	background-color: #000;
 }
+
+
+
 .topIcon{
   width:35px;
   height:35px;
