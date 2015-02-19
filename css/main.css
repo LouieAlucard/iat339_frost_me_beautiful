@@ -6,7 +6,7 @@
   font-style: normal;
   src: url('fonts/Gravity/Gravity-Bold.eot');
   src: url('fonts/Gravity/Gravity-Bold.eot?#iefix') format ('embedded-opentype'),
-     url('fonts/Gravity-Bold.ttf') format ('truetype');
+  url('fonts/Gravity-Bold.ttf') format ('truetype');
 }
 @font-face{
   font-family: "Gravity";
@@ -14,7 +14,7 @@
   font-style: normal;
   src: url('fonts/Gravity/Gravity-Light.eot');
   src: url('fonts/Gravity/Gravity-Light.eot?#iefix') format ('embedded-opentype'),
-     url('fonts/Gravity-Light.ttf') format ('truetype');
+  url('fonts/Gravity-Light.ttf') format ('truetype');
 }
 @font-face{
   font-family: "Gravity";
@@ -22,7 +22,7 @@
   font-style: normal;
   src: url('fonts/Gravity/Gravity-Book.eot');
   src: url('fonts/Gravity/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
-     url('fonts/Gravity-Book.ttf') format ('truetype');
+  url('fonts/Gravity-Book.ttf') format ('truetype');
 }
 
 
@@ -32,9 +32,9 @@
 	font-weight: normal;
 	font-style: normal;
 	src:url("fonts/Gravity-Book/Gravity-Book.eot?") format("eot"),
-		url("fonts/Gravity-Book/Gravity-Book.woff") format("woff"),
-		url("fonts/Gravity-Book/Gravity-Book.ttf") format("truetype"),
-		url("fonts/Gravity-Book/Gravity-Book.svg#Gravity-Book") format("svg");
+  url("fonts/Gravity-Book/Gravity-Book.woff") format("woff"),
+  url("fonts/Gravity-Book/Gravity-Book.ttf") format("truetype"),
+  url("fonts/Gravity-Book/Gravity-Book.svg#Gravity-Book") format("svg");
 }
 
 
@@ -69,6 +69,8 @@ h3 {
   font-family: 'Alegreya', serif;
   font-weight: 700;
   font-style: italic;
+  font-size: 1rem;
+  margin: 0.4em auto;
 }
 
 p {
@@ -92,7 +94,7 @@ a.button {
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
- 
+
 a.button:hover, a.button:focus {
   background-color: #999;
 }
@@ -143,21 +145,20 @@ nav.navigation-side{
 }
 
 nav.navigation-side:before {
-    border-left: 1px solid #000000;
-	  border-right: 1px solid #000000;
-    position: absolute;
-    background: none;
-    content: "";
-    display: block;
-    top: 0px;
-    left: 4px;
-    right: 4px;
-    bottom: 0px;
-    pointer-events: none;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  position: absolute;
+  background: none;
+  content: "";
+  display: block;
+  top: 0px;
+  left: 4px;
+  right: 4px;
+  bottom: 0px;
+  pointer-events: none;
 }
 
 #navigationSide{
-  overflow: hidden;
   position: relative;
 }
 
@@ -173,11 +174,11 @@ nav.navigation-side a{
   font-family: 'Alegreya', serif;
   font-weight: 700;
   font-style: italic;
-	text-decoration: none;
-	text-align: center;
-	color: black;
-	padding: 20px;
-	display: block;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  display: block;
 }
 
 nav.navigation-side a:hover {
@@ -194,15 +195,16 @@ nav.navigation-side a:hover {
 }
 
 #topNavigation {
-   background-color:#9DD8D7;
-   border-radius:0.5em;
+  font-family: "Gravity-Book", sans-serif; 
+  background-color:#9DD8D7;
+  border-radius:0.5em;
 
 }
 #topNavigation a, img {
   text-decoration: none;
   text-align:center;
   color:black;
- 
+  
 }
 
 
