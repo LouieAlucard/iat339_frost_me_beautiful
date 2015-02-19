@@ -37,7 +37,6 @@
 		url("fonts/Gravity-Book/Gravity-Book.svg#Gravity-Book") format("svg");
 }
 
-@import url(http://fonts.googleapis.com/css?family=Alegreya:700italic);
 
 
 
@@ -66,11 +65,20 @@ h2 {
   font-size: 1.2rem;
 }
 
+h3 {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 p {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
 }
 
+#mainContentContainer {
+  margin-top: 20px;
+}
 
 
 
@@ -164,6 +172,9 @@ nav.navigation-side:before {
 
 
 nav.navigation-side a{
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  font-style: italic;
 	text-decoration: none;
 	text-align: center;
 	color: black;
