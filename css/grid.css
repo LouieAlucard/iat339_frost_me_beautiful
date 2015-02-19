@@ -1,0 +1,35 @@
+/* Grid Stylesheet*/
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.col-5of10 {
+	width: 50%;
+}
+
+
+.col-2of10 {
+	width: 20%;
+}
+
+@media (max-width: 50em) {
+	.col-2of10 {
+		width: 100%;
+	}
+}
+
+.grid {
+	content: "";
+	display: block;
+	clear: both;
+}
+
