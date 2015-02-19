@@ -153,10 +153,15 @@ nav.navigation-side a:hover {
 	background-color: #000;
 }
 
+
 #topNavigation {
+   background-color:#9DD8D7;
+
+}
+#topNavigation a, img {
   text-decoration: none;
   text-align:center;
-  color:#9DD8D7;
+  color:black;
 }
 
 

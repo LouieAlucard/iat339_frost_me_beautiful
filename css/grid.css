@@ -16,6 +16,11 @@
 	width: 16.66%;
 }
 
+.col-6of12 {
+	width: 50%;
+	float: right;
+}
+
 
 .col-10of12 {
 	width: 83.33%;
