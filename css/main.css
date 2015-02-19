@@ -152,7 +152,10 @@ nav.navigation-side a:hover {
 	color: white;
 	background-color: #000;
 }
-
+.topIcon{
+  width:50px;
+  height:50px;
+}
 
 #topNavigation {
    background-color:#9DD8D7;
@@ -162,7 +165,8 @@ nav.navigation-side a:hover {
   text-decoration: none;
   text-align:center;
   color:black;
-}
+  
+  }
 
 
 /* Style Guide style */
