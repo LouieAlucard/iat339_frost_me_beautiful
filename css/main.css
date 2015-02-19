@@ -121,20 +121,22 @@ select {
 
 /* Navigation */
 nav.navigation-side{
-	border: 4px solid #000000;
+	border-left: 4px solid #000000;
+	border-right: 4px solid #000000;
     position: relative;
 }
 
 nav.navigation-side:before {
+    border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+    position: absolute;
     background: none;
-    border: 1px solid #000000;
     content: "";
     display: block;
-    position: absolute;
-    top: 4px;
+    top: 0px;
     left: 4px;
     right: 4px;
-    bottom: 4px;
+    bottom: 0px;
     pointer-events: none;
 }
 
