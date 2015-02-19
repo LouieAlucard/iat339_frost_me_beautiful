@@ -123,12 +123,12 @@ select {
 nav.navigation-side{
 	border-left: 4px solid #000000;
 	border-right: 4px solid #000000;
-    position: relative;
+  position: relative;
 }
 
 nav.navigation-side:before {
     border-left: 1px solid #000000;
-	border-right: 1px solid #000000;
+	  border-right: 1px solid #000000;
     position: absolute;
     background: none;
     content: "";
