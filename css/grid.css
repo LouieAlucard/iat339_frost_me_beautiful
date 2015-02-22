@@ -54,6 +54,6 @@
 .grid {
 	content: "";
 	display: block;
-	clear: both;
+	zclear: both;
 }
 

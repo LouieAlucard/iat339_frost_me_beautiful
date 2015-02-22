@@ -28,10 +28,10 @@
 
 /* Gravity-Book */
 @font-face {
-	font-family: "Gravity-Book";
-	font-weight: normal;
-	font-style: normal;
-	src:url("fonts/Gravity-Book/Gravity-Book.eot?") format("eot"),
+  font-family: "Gravity-Book";
+  font-weight: normal;
+  font-style: normal;
+  src:url("fonts/Gravity-Book/Gravity-Book.eot?") format("eot"),
   url("fonts/Gravity-Book/Gravity-Book.woff") format("woff"),
   url("fonts/Gravity-Book/Gravity-Book.ttf") format("truetype"),
   url("fonts/Gravity-Book/Gravity-Book.svg#Gravity-Book") format("svg");
@@ -47,7 +47,7 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   width: 100rem; 
-  margin: 20px auto; 
+  margin: 0 auto; 
 }
 
 
@@ -140,8 +140,8 @@ select {
 
 /* Navigation */
 nav.navigation-side{
-	border-left: 4px solid #000000;
-	border-right: 4px solid #000000;
+  border-left: 4px solid #000000;
+  border-right: 4px solid #000000;
   position: relative;
 }
 
@@ -175,6 +175,7 @@ nav.navigation-side a{
   font-family: 'Alegreya', serif;
   font-weight: 700;
   font-style: italic;
+  font-size: 1.1rem;
   text-decoration: none;
   text-align: center;
   color: black;
@@ -183,8 +184,8 @@ nav.navigation-side a{
 }
 
 nav.navigation-side a:hover {
-	color: white;
-	background-color: #000;
+  color: white;
+  background-color: #000;
 }
 
 
