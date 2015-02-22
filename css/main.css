@@ -172,11 +172,9 @@ select {
 }
 
 nav.navigation-side{
-
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
   position: relative;
-  background-color:white;
   height: 45rem;
 }
 
@@ -196,6 +194,7 @@ nav.navigation-side:before {
 
 #navigationSide{
   position: relative;
+/*  background-color:white;*/
 }
 
 #navigationSideColor {

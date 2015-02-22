@@ -57,3 +57,8 @@
 	clear: both;
 }
 
+.grid#middleSection{
+	overflow: auto;
+	background-color: white;
+}
+
