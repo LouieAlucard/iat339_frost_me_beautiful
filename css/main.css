@@ -139,6 +139,26 @@ select {
 
 
 /* Navigation */
+.topIcon{
+  width:35px;
+  height:35px;
+
+}
+
+#topNavigation {
+  font-family: "Gravity-Book", sans-serif; 
+  background-color:#9DD8D7;
+  border-radius: 0.5em;
+  margin-bottom: 3rem;
+
+}
+#topNavigation a, img {
+  text-decoration: none;
+  text-align:center;
+  color:black;
+
+}
+
 nav.navigation-side{
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
@@ -190,24 +210,7 @@ nav.navigation-side a:hover {
 
 
 
-.topIcon{
-  width:35px;
-  height:35px;
 
-}
-
-#topNavigation {
-  font-family: "Gravity-Book", sans-serif; 
-  background-color:#9DD8D7;
-  border-radius:0.5em;
-
-}
-#topNavigation a, img {
-  text-decoration: none;
-  text-align:center;
-  color:black;
-
-}
 
 
 
