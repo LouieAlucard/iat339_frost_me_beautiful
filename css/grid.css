@@ -16,8 +16,8 @@
 	width: 16.66%;
 }
 
-.col-6of12 {
-	width: 50%;
+.col-6of10 {
+	width: 60%;
 	float: right;
 }
 
@@ -51,14 +51,14 @@
 	width: 25%;
 }
 
+.col-10of10 {
+	width: 100%;
+}
+
+
+
 .grid {
 	content: "";
 	display: block;
 	clear: both;
 }
-
-.grid#middleSection{
-	overflow: auto;
-	background-color: white;
-}
-
