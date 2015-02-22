@@ -48,8 +48,7 @@ body {
   font-size: 16px;
   width: 100rem; 
   margin: 8px auto;
-
-   background-image: url("bk.jpg");
+  background-color:#D6D4D4;
 
  }
 
@@ -134,12 +133,12 @@ select {
 }
 
 .logo {
-  width: 90%;
-  margin-top: -1.6rem;
-  margin-left: -3rem;
+  width: 80%;
+  margin: 1rem auto;
 }
 
 .slider {
+  
   width: 100%;
   height:400px;
 }
@@ -173,9 +172,11 @@ select {
 }
 
 nav.navigation-side{
+
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
   position: relative;
+  background-color:white;
   height: 45rem;
 }
 
@@ -224,8 +225,7 @@ nav.navigation-side a:hover {
 
 
 
-<<<<<<< 335a9592f08515d71d207a74e2064ac1a9490a78
-=======
+
 .topIcon{
   width:4%;
   height:4%
@@ -246,7 +246,7 @@ nav.navigation-side a:hover {
   vertical-align: middle;
   margin-right: 40px;
 
->>>>>>> 37638c1157e63f39e773a3bc6cab51b62f472092
+
 
 
 
