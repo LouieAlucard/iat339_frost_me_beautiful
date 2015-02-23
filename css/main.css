@@ -100,6 +100,31 @@ p {
   padding-right: 10%;
 }
 
+.col-8of10#kit span {
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.05rem;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+ul.kit {
+  font-family: "Gravity-Book", sans-serif; 
+  font-size: 0.8rem;
+  font-style: normal;
+  width: 60em;
+  display: block;
+}
+
+ul.kit li {
+  padding: 0.2rem 0.4rem;
+}
+
+
+
+
+
 
 /* Container */
 .col-8of10#slider {
@@ -129,6 +154,15 @@ p {
   text-align: left;
   padding: 2em 5em;
 }
+
+.col-8of10#kit {
+  font-family: "Gravity-Book", sans-serif; 
+  font-size: 1rem;
+  text-align: left;
+  position: relative;
+  width: 70%;
+}
+
 
 
 
@@ -274,7 +308,13 @@ figure.cookie-category figcaption {
   height: 140px;
   float: left;
   margin-right: 5%;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;  
+}
+
+img.kit {
+  width: 25%;
+  float: left;
+  padding-bottom: 5rem;
 }
 
 
@@ -314,7 +354,6 @@ nav.navigation-side:before {
 
 }
 
-
 nav.navigation-side a{
   font-family: 'Alegreya', serif;
   font-weight: 700;
@@ -331,9 +370,6 @@ nav.navigation-side a:hover {
   color: white;
   background-color: #000;
 }
-
-
-
 
 .topIcon{
   width:4%;
