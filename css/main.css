@@ -101,6 +101,7 @@ p {
   text-decoration:none;
   color:black;
 
+
 }
 
 .col-3of10#product p{
@@ -130,6 +131,8 @@ ul.kit {
 
 ul.kit li {
   padding: 0.2rem 0.4rem;
+
+
 }
 
 
@@ -161,6 +164,7 @@ ul.kit li {
    margin-left: 70rem;
 
 }
+<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
 
 .col-3of10#product {
   position: relative;
@@ -186,6 +190,8 @@ ul.kit li {
   width: 70%;
 }
 
+=======
+>>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
 
 
 /* Button */
@@ -231,6 +237,7 @@ a.shareButton:hover, a.shareButton:focus {
   background-color: #999;
 }
 
+<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
 
 a.button#proceed {
   font-family: "Gravity-Book", sans-serif; 
@@ -260,6 +267,8 @@ a.button#cancel {
   margin-right: 1em;
 }
 
+=======
+>>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
 
 
 /* Form */
@@ -279,10 +288,13 @@ form label {
   margin-right: 4em;
 }
 
+<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
 form input {
   width: 12rem;
 }
 
+=======
+>>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
 ul, li #hoursList{
   list-style-type:none;
   font-family: "Gravity-Book", sans-serif; 
@@ -330,11 +342,15 @@ select {
   width: 150%;
   height:300px;
 }
+<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
 
+=======
+>>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
 .calendar{
   width:600px;
   height:500px;
 }
+<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
 
 .events{
   width:100%;
@@ -386,6 +402,12 @@ img.kit {
   width: 25%;
   float: left;
   padding-bottom: 5rem;
+=======
+.events{
+  width:100%;
+  height:200px;
+
+>>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
 }
 .googleMaps{
   width:509px;
