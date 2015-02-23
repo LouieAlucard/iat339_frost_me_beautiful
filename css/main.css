@@ -136,7 +136,7 @@ p {
 
 
 /* Button */
-a.button {
+a.button#addCart {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
   font-style: italic;
@@ -176,6 +176,21 @@ text-decoration:none;
 }
 a.shareButton:hover, a.shareButton:focus {
   background-color: #999;
+}
+
+
+a.button#proceed {
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  float: right;
+  padding: 0.4em 0.75em;
+  border-radius: 0.25em;
+  background-color: #5ABE8C;
+  margin-right: 3em;
 }
 
 
@@ -357,6 +372,72 @@ nav.navigation-side a:hover {
   color:black;
   vertical-align: middle;
   margin-right: 40px;
+}
+
+
+
+
+/* Table */
+table.order {
+  font-family: "Gravity-Book", sans-serif; 
+  width: 100%;
+  margin-top: 3rem;
+}
+
+
+.table-col-item {
+  width: 25%;
+}
+
+.table-col-des {
+  width: 35%;
+}
+
+.table-col-quantity {
+  width: 10%;
+}
+
+.table-col-size {
+  width: 15%;
+}
+
+.table-col-price {
+  width: 15%;
+}
+
+th {
+  padding: 2rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+td {
+  padding: 1rem;
+}
+
+table.order tr img {
+  width: 50%;
+  height: 120px;
+  margin : auto;
+}
+
+table.order tr p {
+  font-size: 0.9rem;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+table.order tr input {
+  width: 50%;
+}
+
+table.order tr select {
+  width: 50%;
+  margin : auto;
+}
+
+table.order tr span {
+  font-size: 1rem;
 }
 
 
