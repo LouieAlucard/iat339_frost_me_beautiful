@@ -318,6 +318,7 @@ select {
   width: 150%;
   height:300px;
 }
+
 .calendar{
   width:600px;
   height:500px;
@@ -327,6 +328,7 @@ select {
   width:100%;
   height:200px;
 }
+
 
 figure.cookie-category figcaption {
   font-family: "Gravity-Book", sans-serif; 
@@ -350,6 +352,11 @@ figure.cookie-category figcaption {
   float: left;
   margin-right: 5%;
   margin-bottom: 2rem;  
+}
+
+.events {
+  width:100%;
+  height:200px;
 }
 
 img.kit {
