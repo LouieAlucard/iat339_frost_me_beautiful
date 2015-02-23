@@ -55,6 +55,11 @@
 	width: 100%;
 }
 
+.col-3of10 {
+	width: 30%;
+	margin-left: 10%;
+}
+
 
 
 .grid {
