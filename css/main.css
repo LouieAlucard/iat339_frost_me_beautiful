@@ -134,6 +134,13 @@ p {
   margin-bottom: 4rem;
 }
 
+.col-8of10#payment {
+  font-family: "Gravity-Book", sans-serif; 
+  font-size: 1rem;
+  text-align: left;
+  padding: 2em 5em;
+}
+
 
 /* Button */
 a.button#addCart {
@@ -193,19 +200,41 @@ a.button#proceed {
   margin-right: 3em;
 }
 
+a.button#cancel {
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  float: right;
+  padding: 0.4em 0.75em;
+  border-radius: 0.25em;
+  background-color: #847B7E;
+  margin-right: 1em;
+}
+
 
 
 /* Form */
 form {
-  display: inline-block;
   padding: 1em;
-  margin-left:50px;
 }
 
-label {
+form div.input-wrapper {
+  margin: 0.7rem auto;
+}
+
+form label {
+  text-align: right;
+  width: 10rem;
   display: inline-block;
-  margin-top:10px;
-  margin-right:15px;
+  margin-top: 10px;
+  margin-right: 4em;
+}
+
+form input {
+  width: 12rem;
 }
 
 ul, li #hoursList{
@@ -259,11 +288,11 @@ select {
   width:600px;
   height:500px;
 }
-<<<<<<< HEAD
+
 .events{
   width:100%;
   height:200px;
-=======
+}
 
 figure.cookie-category figcaption {
   font-family: "Gravity-Book", sans-serif; 
@@ -280,7 +309,6 @@ figure.cookie-category figcaption {
   padding-top: 0.25em;
   padding-top: 0.3em;
 }
->>>>>>> page catergory product page version 1
 
 .product#category{
   width: 35%;
