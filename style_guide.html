@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Frost Me Beautiful</title>
+		<link href="css/main.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+    <h1>Frost Me Beautiful Style Guide</h1>
+    
+    <nav>
+		Go to:
+		<a href="#TextualElements">TextualElements</a> |
+		<a href="#ColorPalette">ColorPallete</a> |
+		<a href="#buttons">Buttons</a> |
+		<a href="#FormElements">FormElements</a> |
+		<a href="#Images">Images&Icons</a> |
+		<a href="#Navigation">Navigation</a>
+    </nav>
+	
+	
+	<!-- Textual Elements -->
+    <section id="TextualElements">
+		<h2 class="guide">Typography</h2>
+		<h3 class="guide">CSS selector:</h3>
+		<p class="guide">'.headerFont' , '.subHeadingFont' , '.textFont'</p>
+		<h3 class="guide">Sample code:</h3>
+		<code>&lt;a href="#" class="button"&gt;Update&lt;/a&gt;</code>
+		<h3 class="guide">Rendered element:</h3>
+		<h1>Heading 1</h1>
+		<h2>Heading 2	</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </section>
+	
+	
+	<!-- Colour Palette Section -->
+    <section id="ColorPalette">
+		<h2 class="guide">Colour Palette</h2>
+		<h3 class="guide">CSS selector:</h3>
+		<p class="guide">'#Blue'  '#Green'  '#Gray'  '#Black'</p>
+		<h3 class="guide">Sample code:</h3>
+		<code>&lt;div id="Blue"&gt;Light Blue #9DD8D7&lt;/div&gt;</code>
+		<!-- 
+		<div id="Blue">Light Blue #9DD8D7</div>
+		<div id="Green">Light Green #5ABE8C </div> 
+		<div id="Grey">Grey #847B7E</div> 
+		-->
+		<figure>
+		   <img src="img/Blue.jpg" height="150" width="100" alt="blue color">
+		   <img src="img/Green.jpg" height="150" width="100" alt="green color">
+		   <img src="img/Grey.jpg" height="150" width="100" alt="grey color">
+		   <img src="img/Black.jpg" height="150" width="100" alt="black color">
+        </figure>
+    </section>
+
+	
+    <!-- Button Elements Section -->
+    <section id="buttons">
+		<h2 class="guide">Default Button Style</h2>
+		<h3 class="guide">CSS selector:</h3>
+		<p class="guide">'a.button'</p>
+		<h3>Sample code:</h3>
+		<code>&lt;a href="#" class="button"&gt;Update&lt;/a&gt;</code>
+		<h3 class="guide">Rendered element:</h3>
+		<a class="button" href="#">Update</a>
+		<a class="button" href="#">Check out</a>
+		<a class="button" id="addCart"href="#">Add to Cart</a>
+    </section>
+
+	
+    <!-- Form Elements Section -->
+    <section id="FormElements">
+		<h2 class="guide">Form Elements</h2>
+		<h3 class="guide">CSS selector:</h3>
+		<p class="guide">'form' , 'label'</p>
+		<h3 class="guide">Sample code:</h3>
+		<code>&lt;label for="#"&gt;Label Name:&lt;/label&gt;</code> |
+		<code>&lt;input type="text" id="#" placeholder="#"&lt;/input&gt;</code>
+		<h3 class="guide">Rendered element:</h3>
+
+		<form method="post" action="#">
+			<div class="input-wrapper">
+				<label for="form-name">User Name:</label>
+				<input type="text" id="User-name" placeholder=" Sarah B ">
+			</div>
+
+			<div class="input-wrapper">
+				<label for="form-subject">Password:</label>
+				<input type="text" id="User-password" placeholder=" Enter password">
+			</div>
+			<p> Size </p>
+       </form>
+
+       <select>
+          <option value="Petite">P</option>
+          <option value="Small">S</option>
+          <option value="Medium">M</option>
+          <option value="Large">L</option>
+          <option value="X-Large">X-L</option>
+      </select>
+    </section>
+
+	
+    <!-- Images & Icons Section -->
+    <section id="Images">
+		<h2  class="guide">Images</h2>
+		<h3  class="guide">CSS selector:</h3>
+		<p  class="guide">'figure'</p>
+		<h3  class="guide">Sample code:</h3>
+		<code>&lt;img src="#" height="200" width="200" alt="#"&gt;</code>
+		<h5> Product Images </h5>
+		<figure>
+			<img src="img/c1.jpg" height="200" width="200" alt="Necklace cookie">
+			<img src="img/c2.jpg" height="200" width="200" alt="Dress cookie">
+			<img src="img/c3.jpg" height="200" width="200" alt="Cartoon cookie">
+			<img src="img/c4.jpg" height="200" width="200" alt="Cartoon cookie">
+			<img src="img/c5.jpg" height="200" width="200" alt="Penguin cookie">
+			<img src="img/c6.jpg" height="200" width="200" alt="Santa cookie">
+		</figure>
+		<h5> Icons </h5>
+		<figure>
+			<img src="img/icons.png" height="52" width="193" alt="icons">
+		</figure>
+    </section>
+
+	
+	<!-- Navigation Section -->
+    <section id="Navigation">
+		<h2 class="guide">Navigation</h2>
+		<h3 class="guide">CSS selector:</h3>
+		<p class="guide">'#navigation ul li a'</p>
+		<h3>Sample code:</h3>
+		<code>&lt;li&gt; &lt;a href="#" class="navigationButton"&gt; COOKIES &lt;/a&gt;</code>
+		
+		<div id="navigation">
+			<ul> <!-- style="color: red;" -->
+				<li><img></li>
+				<li><a href="#" class="navigationButton">ABOUT</a></li>
+				<li><a href="#" class="navigationButton" >COOKIES</a></li>
+				<li><a href="#" class="navigationButton">KITS</a></li>
+				<li><a href="#" class="navigationButton" >EVENTS</a></li>
+				<li><a href="#" class="navigationButton">TESTIMONIALS</a></li>
+				<li><a href="#" class="navigationButton">CONTACT US</a></li>
+			</ul>
+		</div>  
+	</section>
+	  
+	  
+  </body>
+</html>
