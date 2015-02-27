@@ -479,7 +479,6 @@ nav.navigation-side a:hover {
 .topIcon{
   width:4%;
   height:4%
-
 }
 
 #topNavigation {
@@ -489,12 +488,64 @@ nav.navigation-side a:hover {
   padding:5px;
   margin-bottom: 3rem;
 }
+
 #topNavigation a, img {
   text-decoration: none;
   text-align:center;
   color:black;
   vertical-align: middle;
   margin-right: 40px;
+}
+
+.navigationButton#viewCart {
+  position: relative;
+}
+
+.containerBubble {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+
+.bubble {
+  position: relative;
+  width: 250px;
+  height: 3rem;
+  padding: 0.5rem;
+  background: #FFFFFF;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  border: #5ABE8C solid 2px;
+
+  opacity: 0;
+}
+
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 9px 8px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -8px;
+  left: 194px;
+}
+
+.bubble:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 10px 9px;
+  border-color: #5ABE8C transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  top: -11px;
+  left: 193px;
 }
 
 
