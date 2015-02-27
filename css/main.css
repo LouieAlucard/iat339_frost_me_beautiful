@@ -138,6 +138,14 @@ ul.kit li {
 
 
 /* Container */
+.col-2of12#navigationSide {
+  position: fixed;
+}
+
+.col-2of12#navigationSideBack {
+  overflow: scroll;
+}
+
 .col-8of10#slider {
   margin-bottom: 2rem; 
 }
