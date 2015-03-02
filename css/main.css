@@ -170,8 +170,9 @@ ul.kit li {
   overflow: scroll;
 }
 
-.col-8of10#slider {
-  margin-bottom: 2rem; 
+.col-8of10#imageSlider {
+  margin-top: 3rem; 
+  margin-bottom: 4rem; 
 }
 
 .col-10of10#content {
