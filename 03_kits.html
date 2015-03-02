@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/grid.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
+	<script src="js/cart.js"></script>
 </head>
 
 <body>
@@ -15,7 +17,7 @@
 		<div class="col-2of12" id="navigationSide">
 			<div class="col-15of20">
 				<nav class="navigation-side">
-					<img class="logo" src="img/icon/logo.png" alt="Logo">
+					<a href="index.html"><img class="logo" src="img/icon/logo.png" alt="Logo"></a>
 
 					<a href="01_about.html" class="navigationButton">About</a>
 					<a href="02_cookies.html" class="navigationButton">Cookies</a>
@@ -36,12 +38,16 @@
 			<div class="col-6of10">
 				<div id="topNavigation">
 					<nav>
-						<a href='#' class="navigationButton">contact</a></li>
-						<img src="img/facebook.png" class="topIcon" alt="Facebook">
-						<img src="img/instagram.png" class="topIcon"alt="Instagram">
-						<img src="img/Gmail.png" class="topIcon" alt="Gmail">
-						<a href='#' class="navigationButton">My Account</a></li>
-						<a href='07_order.html' class="navigationButton">View Cart(0)</a></li>
+						<a href='06_contact.html' class="navigationButton">contact</a>
+						<a href='https://www.facebook.com/frostmebeautiful'>
+						<img src="img/facebook.png" class="topIcon" alt="Facebook"></a>
+						<a href='https://instagram.com/frostmebeautiful/'><img src="img/instagram.png" class="topIcon"alt="Instagram"></a>
+						<a href='06_contact.html'><img src="img/Gmail.png" class="topIcon" alt="Gmail"></a>
+						<a href='#' class="navigationButton">My Account</a>
+						<a href='07_order.html' class="navigationButton" id="viewCart">
+							View Cart(0)
+							<div class="containerBubble"><div class="bubble">item added</div></div>
+						</a>
 					</nav>
 				</div>
 			</div>
@@ -54,10 +60,10 @@
 				</div>
 
 				<div class="col-8of10" id="kit">
-					<img src="" class="kit" alt="kit1">
+					<img src="img/kits/kit3.jpg" class="kit" alt="kit1">
 					<h4>Kit 123</h4>
 					<span>$28.00<span>
-					<a class="button" id="addCart"href="#">add to cart</a>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
 					<ul class="kit">
 						<li>A basic sugar cookie recipe</li>
 						<li>A royal icing recipe</li>
@@ -69,10 +75,10 @@
 				</div>
 				
 				<div class="col-8of10" id="kit">
-					<img src="" class="kit" alt="kit1">
+					<img src="img/kits/kit2.jpg" class="kit" alt="kit1">
 					<h4>Kit 123</h4>
 					<span>$28.00<span>
-					<a class="button" id="addCart"href="#">add to cart</a>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
 					<ul class="kit">
 						<li>A basic sugar cookie recipe</li>
 						<li>A royal icing recipe</li>
