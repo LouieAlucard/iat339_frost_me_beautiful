@@ -12,12 +12,9 @@
 	text-align: center;
 }
 
-.col-2of12 {
-	width: 16.66%;
-}
 
-.col-10of12 {
-	width: 83.33%;
+.col-4of8 {
+	width: 50%;
 }
 
 .col-2of10 {
@@ -52,6 +49,14 @@
 
 .col-10of10 {
 	width: 100%;
+}
+
+.col-2of12 {
+	width: 16.66%;
+}
+
+.col-10of12 {
+	width: 83.33%;
 }
 
 .col-5of20 {

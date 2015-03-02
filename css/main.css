@@ -196,11 +196,11 @@ ul.kit li {
   margin-bottom: 2rem;
 }
 
-.col-8of10#payment {
+#payment {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
-  padding: 2em 5em;
+  padding-right: 2%;
 }
 
 .col-8of10#kit {
@@ -559,33 +559,33 @@ table.order {
 }
 
 
-.table-col-item {
+table.order .table-col-item {
   width: 25%;
 }
 
-.table-col-des {
+table.order .table-col-des {
   width: 35%;
 }
 
-.table-col-quantity {
+table.order .table-col-quantity {
   width: 10%;
 }
 
-.table-col-size {
+table.order .table-col-size {
   width: 15%;
 }
 
-.table-col-price {
+table.order .table-col-price {
   width: 15%;
 }
 
-th {
+table.order th {
   padding: 2rem;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
 
-td {
+table.order td {
   padding: 1rem;
 }
 
@@ -614,6 +614,49 @@ table.order tr span {
   font-size: 1rem;
 }
 
+
+
+table.payment {
+  font-family: "Gravity-Book", sans-serif; 
+  width: 100%;
+  margin-top: 1rem;
+}
+
+table.payment .table-col-item {
+  width: 40%;
+}
+table.payment .table-col-quantity {
+  width: 30%;
+  text-align: center;
+}
+
+table.payment .table-col-price {
+  width: 30%;
+  text-align: right;
+}
+
+table.payment th {
+  padding-bottom: 1rem;
+}
+
+table.payment td {
+}
+
+table.payment td.quantity {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+table.payment td.price {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+table.payment tfoot td {
+  font-size: 0.9rem;
+  text-align: right;
+  padding-top: 1rem;
+}
 
 
 
