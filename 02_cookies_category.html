@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="css/grid.css">
 
 	<link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
+	<script src="js/cart.js"></script>
 </head>
 
 <body>
@@ -36,13 +38,16 @@
 			<div class="col-6of10">
 				<div id="topNavigation">
 					<nav>
-					<a href='06_contact.html' class="navigationButton">contact</a></li>
-						<a href='https://www.facebook.com/frostmebeautiful'>
-						<img src="img/facebook.png" class="topIcon" alt="Facebook"></a>
-						<a href='https://instagram.com/frostmebeautiful/'><img src="img/instagram.png" class="topIcon"alt="Instagram"></a>
-						<a href='06_contact.html'><img src="img/Gmail.png" class="topIcon" alt="Gmail"></a>
-						<a href='#' class="navigationButton">My Account</a></li>
-						<a href='07_order.html' class="navigationButton">View Cart(0)</a></li>
+						<a href='#' class="navigationButton">contact</a>
+						<img src="img/facebook.png" class="topIcon" alt="Facebook">
+						<img src="img/instagram.png" class="topIcon"alt="Instagram">
+						<img src="img/Gmail.png" class="topIcon" alt="Gmail">
+						<a href='#' class="navigationButton">My Account</a>
+						<a href='07_order.html' class="navigationButton" id="viewCart">
+							View Cart(0)
+							<div class="containerBubble"><div class="bubble">item added</div></div>
+						</a>
+
 					</nav>
 				</div>
 			</div>
@@ -55,50 +60,50 @@
 				</div>
 
 
-				<div class="col-8of10"> 
+				<div class="col-8of10" id="navigationCategory"> 
 					<nav class="">
-						<a href="02_cookies_category.html">Birthday</a>
-						<a href="02_cookies_category.html">Fashion</a>
-						<a href="02_cookies_category.html">Christmas</a>
-						<a href="02_cookies_category.html">Valentines</a>
-						<a href="02_cookies_category.html">Baby</a>
-						<a href="02_cookies_category.html">Halloween</a>
-						<a href="02_cookies_category.html">Wedding</a>
-						<a href="02_cookies_category.html">Cartoons</a>
-						<a href="02_cookies_category.html">Easter</a>
+						<a href="02_cookies_category.html"><h2 class="active">Birthday</h2></a>
+						<a href="02_cookies_category.html"><h2>Fashion</h2></a>
+						<a href="02_cookies_category.html"><h2>Christmas</h2></a>
+						<a href="02_cookies_category.html"><h2>Valentines</h2></a>
+						<a href="02_cookies_category.html"><h2>Baby</h2></a>
+						<a href="02_cookies_category.html"><h2>Halloween</h2></a>
+						<a href="02_cookies_category.html"><h2>Wedding</h2></a>
+						<a href="02_cookies_category.html"><h2>Cartoons</h2></a>
+						<a href="02_cookies_category.html"><h2>Easter</h2></a>
 					</nav>
 				</div>
 
 				<div class="col-3of10" id="product"> 
 					<img src="" class="product" id="category" alt="p1">
 					<h4>cookie 1</h4>
-					<a class="button" id="addCart"href="#">add to cart</a>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
 					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
 				</div>
 				<div class="col-3of10" id="product"> 
 					<img src="" class="product" id="category" alt="p1">
 					<h4>cookie 1</h4>
-					<a class="button" id="addCart"href="#">add to cart</a>
-					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
-				</div>
-
-				<div class="col-3of10" id="product"> 
-					<img src="" class="product" id="category" alt="p1">
-					<h4>cookie 1</h4>
-					<a class="button" id="addCart"href="#">add to cart</a>
-					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
-				</div>
-				<div class="col-3of10" id="product"> 
-					<img src="" class="product" id="category" alt="p1">
-					<h4>cookie 1</h4>
-					<a class="button" id="addCart"href="#">add to cart</a>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
 					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
 				</div>
 
 				<div class="col-3of10" id="product"> 
 					<img src="" class="product" id="category" alt="p1">
 					<h4>cookie 1</h4>
-					<a class="button" id="addCart"href="#">add to cart</a>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
+					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
+				</div>
+				<div class="col-3of10" id="product"> 
+					<img src="" class="product" id="category" alt="p1">
+					<h4>cookie 1</h4>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
+					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
+				</div>
+
+				<div class="col-3of10" id="product"> 
+					<img src="" class="product" id="category" alt="p1">
+					<h4>cookie 1</h4>
+					<a class="button" id="addCart" onclick="showNotif()" href="#">add to cart</a>
 					<p>Loads of semi-sweet chocolate baked into to a dense dark chocolate cookie. semi-sweet chocolate baked into to a dense dar</p>
 				</div>
 

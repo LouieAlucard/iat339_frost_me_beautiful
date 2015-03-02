@@ -71,6 +71,30 @@ h2 {
   border-bottom: 2px solid #5ABE8C;
 }
 
+
+#navigationCategory h2 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  vertical-align: baseline;
+  border-bottom: 1.6px solid #5ABE8C;
+  width: 10%;
+  margin-right: 0.5%;
+
+  -webkit-transition: all 0.3s; 
+  transition: all 0.3s;
+}
+
+#navigationCategory h2.active {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#navigationCategory h2:hover {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
 h3 {
   font-family: 'Alegreya', serif;
   font-weight: 700;
@@ -100,7 +124,13 @@ p {
   font-weight: bold;
   text-decoration:none;
   color:black;
+}
 
+.contactLink{
+  font-family: "Gravity";
+  font-weight: bold;
+  text-decoration:none;
+  color:black;
 
 }
 
@@ -131,8 +161,6 @@ ul.kit {
 
 ul.kit li {
   padding: 0.2rem 0.4rem;
-
-
 }
 
 
@@ -149,8 +177,9 @@ ul.kit li {
   overflow: scroll;
 }
 
-.col-8of10#slider {
-  margin-bottom: 2rem; 
+.col-8of10#imageSlider {
+  margin-top: 3rem; 
+  margin-bottom: 4rem; 
 }
 
 .col-10of10#content {
@@ -162,9 +191,11 @@ ul.kit li {
 }
 .col-2of10#guestBook{
    margin-left: 70rem;
-
 }
 
+.col-2of10#guestBook{
+   margin-left: 70rem;
+}
 
 .col-3of10#product {
   position: relative;
@@ -175,11 +206,11 @@ ul.kit li {
   margin-bottom: 2rem;
 }
 
-.col-8of10#payment {
+#payment {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
-  padding: 2em 5em;
+  padding-right: 2%;
 }
 
 .col-8of10#kit {
@@ -190,7 +221,19 @@ ul.kit li {
   width: 70%;
 }
 
+.col-8of10#navigationCategory {
+  text-align: left;
+  margin-bottom: 2rem;
+}
 
+
+
+.col-8of10#payment {
+  font-family: "Gravity-Book", sans-serif; 
+  font-size: 1rem;
+  text-align: left;
+  padding: 2em 5em;
+}
 
 
 /* Button */
@@ -237,7 +280,6 @@ a.shareButton:hover, a.shareButton:focus {
 }
 
 
-
 a.button#proceed {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
@@ -267,8 +309,6 @@ a.button#cancel {
 }
 
 
-
-
 /* Form */
 form {
   padding: 1em;
@@ -278,6 +318,12 @@ form div.input-wrapper {
   margin: 0.7rem auto;
 }
 
+
+form div.input-wrapper#cardType {
+  margin-top: 2rem;
+}
+
+
 form label {
   text-align: right;
   width: 10rem;
@@ -286,11 +332,54 @@ form label {
   margin-right: 4em;
 }
 
-
 form input {
-  width: 12rem;
+  width: 10rem;
 }
 
+form select {
+  margin-left: 0;
+  width: 10rem;
+  display: inline-block;
+}
+
+form select.expire {
+  width: 4rem;
+
+}
+
+form input[type="radio"] {
+  width: 3rem;
+  padding-top: 6rem;
+}
+
+form img.card {
+  width: auto;
+  height: 1.2rem;
+  position: relative;
+  bottom: 1.7rem;
+  right: 3rem;
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul, li #hoursList{
+  list-style-type:none;
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
+  line-height: 140%;
+ 
+  padding-left:20px;
+}
+
+
+/* Images */
+figure {
+  margin-left: 0; /* setting there to be no margin on the left */
+  margin-top:10px;
+  margin-right:15px;
+  width: 12rem;
+}
 
 ul, li #hoursList{
   list-style-type:none;
@@ -336,15 +425,14 @@ select {
   margin: 0;
 }
 .Owner{
-  width: 130%;
+  width: 150%;
   height:300px;
 }
 
 .calendar{
-  width:558px;
-  height:422px;
+  width:600px;
+  height:500px;
 }
-
 
 .events{
   width:100%;
@@ -356,11 +444,6 @@ figure.cookie-category {
   width: 100%;
   margin: 0;
   position: relative;
-}
-
-figure.cookie-category img {
-  width: 100%;
-  height: 180px;
 }
 
 figure.cookie-category figcaption {
@@ -387,25 +470,15 @@ figure.cookie-category figcaption {
   margin-bottom: 2rem;  
 }
 
-.events {
-  width:100%;
-  height:200px;
-}
-
 img.kit {
   width: 25%;
   float: left;
   padding-bottom: 5rem;
 }
 
-.events{
-  width:100%;
-  height:200px;
-
-}
 .googleMaps{
-  width:514px;
-  height:320px;
+  width:509px;
+  height:380px;
 }
 
 
@@ -466,7 +539,6 @@ nav.navigation-side a:hover {
 .topIcon{
   width:4%;
   height:4%
-
 }
 
 #topNavigation {
@@ -476,12 +548,64 @@ nav.navigation-side a:hover {
   padding:5px;
   margin-bottom: 3rem;
 }
+
 #topNavigation a, img {
   text-decoration: none;
   text-align:center;
   color:black;
   vertical-align: middle;
   margin-right: 40px;
+}
+
+.navigationButton#viewCart {
+  position: relative;
+}
+
+.containerBubble {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}
+
+.bubble {
+  position: relative;
+  width: 250px;
+  height: 3rem;
+  padding: 0.5rem;
+  background: #FFFFFF;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  border: #5ABE8C solid 2px;
+
+  opacity: 0;
+}
+
+
+.bubble:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 9px 8px;
+  border-color: #FFFFFF transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  top: -8px;
+  left: 194px;
+}
+
+.bubble:before {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 0 10px 9px;
+  border-color: #5ABE8C transparent;
+  display: block;
+  width: 0;
+  z-index: 0;
+  top: -11px;
+  left: 193px;
 }
 
 
@@ -495,33 +619,33 @@ table.order {
 }
 
 
-.table-col-item {
+table.order .table-col-item {
   width: 25%;
 }
 
-.table-col-des {
+table.order .table-col-des {
   width: 35%;
 }
 
-.table-col-quantity {
+table.order .table-col-quantity {
   width: 10%;
 }
 
-.table-col-size {
+table.order .table-col-size {
   width: 15%;
 }
 
-.table-col-price {
+table.order .table-col-price {
   width: 15%;
 }
 
-th {
+table.order th {
   padding: 2rem;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
 
-td {
+table.order td {
   padding: 1rem;
 }
 
@@ -550,6 +674,49 @@ table.order tr span {
   font-size: 1rem;
 }
 
+
+
+table.payment {
+  font-family: "Gravity-Book", sans-serif; 
+  width: 100%;
+  margin-top: 1rem;
+}
+
+table.payment .table-col-item {
+  width: 40%;
+}
+table.payment .table-col-quantity {
+  width: 30%;
+  text-align: center;
+}
+
+table.payment .table-col-price {
+  width: 30%;
+  text-align: right;
+}
+
+table.payment th {
+  padding-bottom: 1rem;
+}
+
+table.payment td {
+}
+
+table.payment td.quantity {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+table.payment td.price {
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+table.payment tfoot td {
+  font-size: 0.9rem;
+  text-align: right;
+  padding-top: 1rem;
+}
 
 
 

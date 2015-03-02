@@ -27,18 +27,18 @@
 			<div class="col-5of20" id="navigationSideColor"></div>
 		</div>
 
-				<div class="col-2of12" id="navigationSideBack">
-			
+		<div class="col-2of12" id="navigationSideBack">
 		</div>
+
+				
 		<div class="col-10of12">
 			<div class="col-6of10">
 				<div id="topNavigation">
 					<nav>
-						<a href='06_contact.html' class="navigationButton">contact</a></li>
-						<a href='https://www.facebook.com/frostmebeautiful'>
-						<img src="img/facebook.png" class="topIcon" alt="Facebook"></a>
-						<a href='https://instagram.com/frostmebeautiful/'><img src="img/instagram.png" class="topIcon"alt="Instagram"></a>
-						<a href='06_contact.html'><img src="img/Gmail.png" class="topIcon" alt="Gmail"></a>
+						<a href='#' class="navigationButton">contact</a></li>
+						<img src="img/facebook.png" class="topIcon" alt="Facebook">
+						<img src="img/instagram.png" class="topIcon"alt="Instagram">
+						<img src="img/Gmail.png" class="topIcon" alt="Gmail">
 						<a href='#' class="navigationButton">My Account</a></li>
 						<a href='07_order.html' class="navigationButton">View Cart(0)</a></li>
 					</nav>
@@ -52,74 +52,161 @@
 					<img src="img/icon/Ornament.png" class="ornament" alt="Ornament">
 				</div>
 
-
-				<div class="col-8of10" id="payment"> 
-					<form method="post" action="#">
-						<h2>Billing information</h2>
+				<form method="post" action="#">
+					<div class="col-4of10" id="payment"> 
+					
+						<h2>Billing Information</h2>
 						<div class="input-wrapper">
 							<label for="form-address">Address:</label>
-							<input type="text" id="address" placeholder=" Sarah B ">
+							<input type="text" id="address" placeholder=" 8888 University Rd ">
 						</div>
 
 						<div class="input-wrapper">
 							<label for="form-subject">City:</label>
-							<input type="text" id="city" placeholder=" Enter password">
-						</div>
-
-						<div class="input-wrapper">
-							<label for="form-country">Country:</label>
-							<input type="text" id="country" placeholder=" Enter password">
+							<input type="text" id="city" placeholder=" Vancouver">
 						</div>
 
 						<div class="input-wrapper">
 							<label for="form-province">Province:</label>
-							<input type="text" id="province" placeholder=" Enter password">
+							<select>
+								<option value="AB">Alberta</option>
+								<option value="BC">British Columbia</option>
+								<option value="MB">Manitoba</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NL">Newfoundland and Labrador</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="ON">Ontario</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="QC">Quebec</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="YT">Yukon</option>
+							</select>
 						</div>
 
 						<div class="input-wrapper">
 							<label for="form-postal">Postal Code:</label>
-							<input type="text" id="postal" placeholder=" Enter password">
+							<input type="text" id="postal" placeholder=" T6I 8V0">
 						</div>
 
 						<div class="input-wrapper">
 							<label for="form-phone">Phone:</label>
-							<input type="text" id="phone" placeholder=" Enter password">
+							<input type="text" id="phone" placeholder=" 604-234-3456">
 						</div>
 
 						<div class="input-wrapper">
 							<label for="form-email">E-mail:</label>
-							<input type="text" id="email" placeholder=" Enter password">
+							<input type="text" id="email" placeholder=" givemeA@iat381.io">
 						</div>
+					</div>
 
-						<h2>Payment method</h2>
-						<div class="input-wrapper">
-							<label for="form-cardNumber">Card Number:</label>
-							<input type="text" id="cardNumber" placeholder=" Sarah B ">
+					<div class="col-3of10" id="payment"> 
+
+						<h2>Purchasing Items</h2>
+
+						<table class="payment">
+						<thead>
+							<tr>
+								<th class="table-col-item"><span>Item</span></th>
+								<th class="table-col-quantity"><span>Quantity</span></th>
+								<th class="table-col-price"><span>Price</span></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Cookie 1</td>
+								<td class="quantity">1</td>
+								<td class="price">$15.00</td>
+							</tr>
+							<tr>
+								<td>Cookie 2</td>
+								<td class="quantity">3</td>
+								<td class="price">$76.00</td>
+							</tr>
+							<tr>
+								<td>Cookie 3</td>
+								<td class="quantity">1</td>
+								<td class="price">$23.00</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td></td>
+								<td>Total</td>
+								<td>$114.00</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>GST: </td>
+								<td>$4</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Grand Total: </td>
+								<td>$118.00</td>
+							</tr>
+						</tfoot>
+						</table>
+					</div>
+
+					<div class="col-8of10">
+						<div class="col-4of8" id="payment"> 
+
+							<h2>Payment Method</h2>
+
+							<div class="input-wrapper">
+								<label for="form-cardNumber">Card Number:</label>
+								<input type="text" id="cardNumber" placeholder=" Sarah B ">
+							</div>
+
+							<div class="input-wrapper" id="cardType">			
+								<label for="form-cardType">Card Type:</label>
+								<input type="radio" name="cardType" value="credit" checked><img class="card" src="img/icon/card_master.png" alt="master card">
+								<input type="radio" name="cardType" value="paypal" ><img class="card" src="img/icon/card_visa.png" alt="credit card">
+								<input type="radio" name="cardType" value="master" ><img class="card" src="img/icon/card_paypal.png" alt="paypal card">
+							</div>
+
+							<div class="input-wrapper">
+								<label for="form-expire">Expire Date:</label>
+								<select class="expire" name="month" size="1">
+								    <option value="01">January</option>
+								    <option value="02">February</option>
+								    <option value="03">March</option>
+								    <option value="04">April</option>
+								    <option value="05">May</option>
+								    <option value="06">June</option>
+								    <option value="07">July</option>
+								    <option value="08">August</option>
+								    <option value="09">September</option>
+								    <option value="10">October</option>
+								    <option value="11">November</option>
+								    <option value="12">December</option>
+								</select>
+								<select class="expire" name="year">
+									<option value="2019">2019</option>
+									<option value="2018">2018</option>
+									<option value="2017">2017</option>
+									<option value="2016">2016</option>
+									<option value="2015">2015</option>
+									
+   							</select>
+							</div>
+
+							<div class="input-wrapper">
+								<label for="form-holder">CardHolder Name:</label>
+								<input type="text" id="holder" placeholder=" Sarah B ">
+							</div>
+					       
 						</div>
+					</div>
 
-						<div class="input-wrapper">			
-							<label for="form-cardType">Card Type:</label>
-							<input type="text" id="cardType" placeholder=" Sarah B ">
-						</div>
+					<div class="col-8of10"> 
+						<a href="" class="button" id="proceed" href="#">Continue</a>
+						<a href="07_order.html" class="button" id="cancel" href="#">Cancel</a>
+					</div>
 
-						<div class="input-wrapper">
-							<label for="form-expire">Expire Date:</label>
-							<input type="text" id="expire" placeholder=" Sarah B ">
-						</div>
-
-						<div class="input-wrapper">
-							<label for="form-holder">CardHolder Name:</label>
-							<input type="text" id="holder" placeholder=" Sarah B ">
-						</div>
-			       </form>
-				</div>
-
-				<div class="col-8of10"> 
-					<a href="" class="button" id="proceed" href="#">Continue</a>
-					<a href="07_order.html" class="button" id="cancel" href="#">Cancel</a>
-				</div>
-
-				
+				</form>
 
 				
 
