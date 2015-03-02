@@ -286,13 +286,12 @@ form label {
   margin-right: 4em;
 }
 
-<<<<<<< 592f7dedbb560da0dff97ba2db5c7b5d15fb57c6
+
 form input {
   width: 12rem;
 }
 
-=======
->>>>>>> 25409fba3eebde2aaae71f03e159384e2e087745
+
 ul, li #hoursList{
   list-style-type:none;
   font-family: "Gravity-Book", sans-serif; 
@@ -337,13 +336,13 @@ select {
   margin: 0;
 }
 .Owner{
-  width: 150%;
+  width: 130%;
   height:300px;
 }
 
 .calendar{
-  width:600px;
-  height:500px;
+  width:558px;
+  height:422px;
 }
 
 
@@ -405,8 +404,8 @@ img.kit {
 
 }
 .googleMaps{
-  width:509px;
-  height:380px;
+  width:514px;
+  height:320px;
 }
 
 
