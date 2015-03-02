@@ -301,6 +301,10 @@ form div.input-wrapper {
   margin: 0.7rem auto;
 }
 
+form div.input-wrapper#cardType {
+  margin-top: 2rem;
+}
+
 form label {
   text-align: right;
   width: 10rem;
@@ -310,7 +314,34 @@ form label {
 }
 
 form input {
-  width: 12rem;
+  width: 10rem;
+}
+
+form select {
+  margin-left: 0;
+  width: 10rem;
+  display: inline-block;
+}
+
+form select.expire {
+  width: 4rem;
+
+}
+
+form input[type="radio"] {
+  width: 3rem;
+  padding-top: 6rem;
+}
+
+form img.card {
+  width: auto;
+  height: 1.2rem;
+  position: relative;
+  bottom: 1.7rem;
+  right: 3rem;
+  margin: 0;
+  padding: 0;
+  
 }
 
 ul, li #hoursList{
