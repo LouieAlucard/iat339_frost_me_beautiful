@@ -62,15 +62,27 @@
 	width: 75%;
 }
 
-@media (max-width: 50em) {
-	.col-2of10 {
-		width: 100%;
-	}
-}
+
 
 
 .grid {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+
+
+@media (max-width: 50rem) {
+	.col-2of10 {
+		width: 80%;
+	}
+
+	.col-3of10 {
+		width: 80%;
+	}
+
+	.col-4of10 {
+		width: 80%;
+	}
 }
