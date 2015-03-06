@@ -5,7 +5,7 @@ function showNotif() {
 	setTimeout(function(){
 		fadeOut(bubble);
 
-    },5000); 
+    },3000); 
 }
 
 function fadeOut(el){

@@ -13,8 +13,16 @@
 }
 
 
+.col-2of8 {
+	width: 25%;
+}
+
 .col-4of8 {
 	width: 50%;
+}
+
+.col-6of8 {
+	width: 75%;
 }
 
 .col-2of10 {
@@ -73,9 +81,13 @@
 
 
 
-@media (max-width: 50rem) {
+@media (max-width: 60rem) {
 	.col-2of10 {
 		width: 80%;
+	}
+
+	.col-2of10#itemCategory {
+		width: 40%;
 	}
 
 	.col-3of10 {
@@ -85,4 +97,12 @@
 	.col-4of10 {
 		width: 80%;
 	}
+
+	#navigationCategory h2 {
+		width: 30%;
+	}
+
+	.col-of8 {
+		
+	}	
 }
