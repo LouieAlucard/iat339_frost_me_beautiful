@@ -576,9 +576,13 @@ nav.navigation-side a.navigationButton{
   color: black;
   padding: 1.2em;
   display: block;
+
+  -webkit-transition: font-size 0.3s; 
+  transition: font-size 0.3s;
 }
 
 nav.navigation-side a.navigationButton:hover {
+  font-size: 1.5rem;
   color: white;
   background-color: #9DD8D7;
 }
