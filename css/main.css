@@ -74,6 +74,10 @@ h2 {
   border-bottom: 2px solid #5ABE8C;
 }
 
+.col-8of10#payment h2 {
+  width: 50%;
+}
+
 h3 {
   font-family: 'Alegreya', serif;
   font-weight: 400;
@@ -101,6 +105,7 @@ p {
   font-weight: normal;
   line-height: 140%;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 .contactLink{
@@ -230,7 +235,6 @@ ul, li #hoursList{
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
-  padding: 2em 5em;
 }
 
 .col-6of10#review {
@@ -267,7 +271,7 @@ a.button#addCart {
   transition: background-color 0.5s ease-out;
 }
 
-a.button:hover, a.button:focus {
+a.button#addCart:hover, a.button:focus {
   background-color: #999;
 }
 
@@ -446,10 +450,11 @@ figure.owner img {
 
 figure.owner figcaption{
   font-family: "Gravity-Book", sans-serif; 
+  font-size: 0.8rem;
   font-weight: normal;
-  position: absolute;
-  bottom: -1.5rem;
-  left: 0;
+  font-style: italic;
+  color: grey;
+  padding-top: 0.1rem;
 }
 
 .calendar{

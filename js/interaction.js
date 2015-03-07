@@ -8,6 +8,7 @@ function showNotif() {
     },3000); 
 }
 
+
 function fadeOut(el){
 	el.style.opacity = 1;
 

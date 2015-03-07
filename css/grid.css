@@ -109,4 +109,8 @@
 	.calendar{
   		width:100%;
 	}
+
+	figure.cookie-category figcaption {
+		font-size: 1rem;
+	}
 }
