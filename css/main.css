@@ -92,11 +92,15 @@ h4 {
   display: block;
 }
 
+.col-8of10#contentHeader h4{
+  margin-bottom: 3rem;
+}
+
 p {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
   line-height: 140%;
-  text-align: justify;
+  text-align: left;
 }
 
 .contactLink{
@@ -142,6 +146,22 @@ ul.kit li {
   padding: 0.1rem 0;
 }
 
+ul#hoursList {
+  text-align: left;
+}
+
+ul#hoursList li {
+  padding: 0.1rem 0;
+}
+
+ul, li #hoursList{
+  list-style-type:none;
+  font-family: "Gravity-Book", sans-serif; 
+  font-weight: normal;
+  line-height: 140%;
+ 
+  padding-left:20px;
+}
 
 
 
@@ -213,6 +233,15 @@ ul.kit li {
   padding: 2em 5em;
 }
 
+.col-6of10#review {
+  font-family: "Gravity-Book", sans-serif; 
+  font-size: 1rem;
+  text-align: left; 
+  float: left;
+  margin-left: 10%
+}
+
+
 
 
 
@@ -234,7 +263,6 @@ a.button#addCart {
   right: -2.2em;
   top: 0.5em;
   
-  
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -243,17 +271,18 @@ a.button:hover, a.button:focus {
   background-color: #999;
 }
 
-a.shareButton {
-text-decoration:none; 
- text-align:center; 
- padding:11px 22px; 
- border:solid 1px #9ed9bc; 
- border-radius: 9px; 
- font:14px Arial, Helvetica, sans-serif; 
- font-weight:bold; 
- color:white; 
- background:#5abe8c; 
- -webkit-transition: background-color 0.5s ease-out;
+a.button#share {
+  text-decoration:none; 
+  text-align:center; 
+  padding:11px 22px; 
+  border:solid 1px #9ed9bc; 
+  border-radius: 9px; 
+  font:14px Arial, Helvetica, sans-serif; 
+  font-weight:bold; 
+  color:white; 
+  background:#5abe8c; 
+  
+  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
  
 }
@@ -305,9 +334,6 @@ form div.input-wrapper {
 }
 
 
-form div.input-wrapper#cardType {
-  margin-top: 2rem;
-}
 
 
 form label {
@@ -315,7 +341,7 @@ form label {
   width: 10rem;
   display: inline-block;
   margin-top: 10px;
-  margin-right: 4em;
+  margin-right: 2rem;
 }
 
 form input {
@@ -328,14 +354,13 @@ form select {
   display: inline-block;
 }
 
-form select.expire {
-  width: 4rem;
 
+form div.input-wrapper#cardType {
+  margin-top: 2rem;
 }
 
 form input[type="radio"] {
-  width: 3rem;
-  padding-top: 6rem;
+  width: 5%;
 }
 
 form img.card {
@@ -343,19 +368,27 @@ form img.card {
   height: 1.2rem;
   position: relative;
   bottom: 1.7rem;
-  right: 3rem;
+  right: 2rem;
   margin: 0;
   padding: 0;
-  
 }
 
-ul, li #hoursList{
-  list-style-type:none;
-  font-family: "Gravity-Book", sans-serif; 
-  font-weight: normal;
-  line-height: 140%;
- 
-  padding-left:20px;
+form select.expire {
+  width: 4rem;
+}
+
+.col-6of10#review label {
+  width: 10%;
+  vertical-align: top;
+}
+
+.col-6of10#review input {
+  width: 40%;
+}
+
+.col-6of10#review textarea {
+  width: 70%;
+  height: 5rem;
 }
 
 
@@ -366,6 +399,7 @@ ul, li #hoursList{
 /* ========================== Images ==========================*/
 img {
   width: 100%;
+  height: auto;
 }
 
 figure {
@@ -419,13 +453,11 @@ figure.owner figcaption{
 }
 
 .calendar{
-  width:600px;
-  height:500px;
+  width:150%;
 }
 
 .events{
   width:100%;
-  height:200px;
 }
 
 figure.home-banner {
@@ -503,7 +535,7 @@ nav.navigation-side{
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
   position: relative;
-  height: 60rem;
+  height: 100vh;
 }
 
 nav.navigation-side:before {
@@ -663,11 +695,11 @@ table.order {
 
 
 table.order .table-col-item {
-  width: 25%;
+  width: 20%;
 }
 
 table.order .table-col-des {
-  width: 35%;
+  width: 40%;
 }
 
 table.order .table-col-quantity {
@@ -694,7 +726,7 @@ table.order td {
 
 table.order tr img {
   width: 50%;
-  height: 120px;
+  height: auto;
   margin : auto;
 }
 
@@ -709,7 +741,7 @@ table.order tr input {
 }
 
 table.order tr select {
-  width: 50%;
+  width: 80%;
   margin : auto;
 }
 

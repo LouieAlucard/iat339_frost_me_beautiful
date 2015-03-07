@@ -81,7 +81,11 @@
 
 
 
-@media (max-width: 60rem) {
+@media (max-width: 70rem) {
+	.col-4of8 {
+		width: 100%;
+	}
+
 	.col-2of10 {
 		width: 80%;
 	}
@@ -102,7 +106,7 @@
 		width: 30%;
 	}
 
-	.col-of8 {
-		
-	}	
+	.calendar{
+  		width:100%;
+	}
 }
