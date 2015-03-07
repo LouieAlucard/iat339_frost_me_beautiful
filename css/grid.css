@@ -118,6 +118,15 @@
 		font-size: 1rem;
 	}
 
+	.col-8of10#payment h2 {
+  		width: 100%;
+	}
+
+	form label {
+	  width: 6rem;
+
+	}
+
 	.calendar{
   		width:100%;
 	}
