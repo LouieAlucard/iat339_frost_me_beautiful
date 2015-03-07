@@ -440,11 +440,11 @@ select {
 figure.owner {
   width: 100%;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 
 figure.owner img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -454,7 +454,7 @@ figure.owner figcaption{
   font-weight: normal;
   font-style: italic;
   color: grey;
-  padding-top: 0.1rem;
+  padding-top: 0.2rem;
 }
 
 .calendar{
@@ -497,21 +497,26 @@ figure.cookie-category {
 figure.cookie-category img {
   width: 100%;
   height: auto;
+  opacity: 1;
+}
+
+figure.cookie-category img:hover {
+  opacity: 0.5;
+  filter: alpha;
 }
 
 figure.cookie-category figcaption {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
-  font-size: 1.2rem;
-  text-align: left;
-  color: white;
-  width: 70%;
+  font-size: 1.1rem;
+  text-align: center;
+  color: black;
+  width: 100%;
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 0;
-  background-color: #5ABE8C;
-  padding-left: 0.7em;
-  padding-top: 0.3em;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5em 0 0.4em 0;
 }
 
 .product#category{
@@ -537,6 +542,7 @@ img.kit {
 
 /* ========================== Navigation ===================== */
 nav.navigation-side{
+  padding-top: 2vw;
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
   position: relative;
@@ -567,7 +573,16 @@ nav.navigation-side:before {
   position: absolute;
   height: 100%;
   right: 0;
+}
 
+#navigationSideBorder {
+  width: 12px;
+  background-image: url("../img/SideDeco.png");
+  background-size: 12px 24px;
+  background-repeat: repeat-y;
+  position: absolute;
+  height: 100%;
+  left: 100%;
 }
 
 nav.navigation-side a.navigationButton{

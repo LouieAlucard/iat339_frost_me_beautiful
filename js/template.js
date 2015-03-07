@@ -1,5 +1,5 @@
 $( document ).ready(function () {
-    $("#navigationSide").html("<div class='col-15of20'>"
+    $("#navigationSide").html("<div class='col-17of20'>"
     	+ "<nav class='navigation-side'>"
     		+ "<a href='index.html'><img class='logo' src='img/icon/logo.png' alt='Logo'></a>"
 	    	+ "<a href='01_about.html' class='navigationButton'>About</a><a href='02_cookies.html' class='navigationButton'>Cookies</a>"
@@ -7,8 +7,10 @@ $( document ).ready(function () {
 	    	+ "<a href='04_events.html' class='navigationButton'>Events</a>"
 	    	+ "<a href='05_testimonials.html' class='navigationButton'>Testimonials</a>"
 	    	+ "<a href='06_contact.html' class='navigationButton'>Contact Us</a>"
-    	+ "</nav>"
-    	+ "</div><div class='col-5of20' id='navigationSideColor'></div>");
+    	+ "</nav></div>"
+    	+ "<div class='col-3of20' id='navigationSideColor'>"
+    	+ "<div id='navigationSideBorder'></div>"
+    	+ "</div>");
 
 
     $("#topNavigation").html('<nav>'

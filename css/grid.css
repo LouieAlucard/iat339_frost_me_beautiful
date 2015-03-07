@@ -62,12 +62,12 @@
 	width: 83.33%;
 }
 
-.col-5of20 {
-	width: 25%;
+.col-3of20 {
+	width: 15%;
 }
 
-.col-15of20 {
-	width: 75%;
+.col-17of20 {
+	width: 85%;
 }
 
 
@@ -102,15 +102,23 @@
 		width: 80%;
 	}
 
+	nav.navigation-side a.navigationButton {
+		font-size: 0.9rem;
+	}
+
+	nav.navigation-side a.navigationButton:hover {
+		font-size: 1.1rem;
+	}
+
 	#navigationCategory h2 {
 		width: 30%;
 	}
 
-	.calendar{
-  		width:100%;
-	}
-
 	figure.cookie-category figcaption {
 		font-size: 1rem;
+	}
+
+	.calendar{
+  		width:100%;
 	}
 }
