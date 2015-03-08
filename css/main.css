@@ -131,7 +131,7 @@ span.bold {
   color:black;
 }
 
-.col-3of10#product p{
+.col-3of10.product p{
   font-family: "Gravity-Book", sans-serif; 
   font-size: 0.9rem;
   text-align: left;
@@ -139,7 +139,7 @@ span.bold {
   padding-right: 8%;
 }
 
-.col-8of10#kit span {
+.col-8of10.kit span {
   font-family: 'Alegreya', serif;
   font-weight: 400;
   font-style: italic;
@@ -206,30 +206,31 @@ ul, li #hoursList{
    margin-left: 70rem;
 }
 
-.col-3of10#product {
+.col-3of10.product {
   position: relative;
   margin-bottom: 4rem;
 }
 
-.col-2of10#itemCategory {
+.col-2of10.itemCategory {
   margin-bottom: 2rem;
 }
 
-#payment {
+.payment {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
   padding-right: 2%;
 }
 
-#kit {
+.kit {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
   position: relative;
 }
 
-.col-6of8#kit {
+.col-6of8.kit {
+  text-align: left;
   padding-top: 1.5vw;
   padding-left: 6vw;
 }
@@ -239,7 +240,7 @@ ul, li #hoursList{
   margin-bottom: 2rem;
 }
 
-.col-8of10#payment {
+.col-8of10.payment {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 1rem;
   text-align: left;
@@ -265,7 +266,7 @@ ul, li #hoursList{
 
 
 /*========================== Button ==========================*/
-a.button#addCart {
+a.button.addCart {
   font-family: "Gravity-Book", sans-serif; 
   font-weight: normal;
   font-style: italic;
@@ -449,13 +450,13 @@ select {
   z-index: -1;
 }
 
-.product#homepage{
+.product.homepage{
   width: 100%;
   height: auto;
   opacity: 1;
 }
 
-.product#homepage:hover{
+.product.homepage:hover{
   opacity: 0.5;
   filter: alpha;
 }
@@ -554,7 +555,7 @@ figure.cookie-category figcaption {
   padding: 0.5em 0 0.4em 0;
 }
 
-.product#category{
+.product.category{
   width: 35%;
   float: left;
   margin-right: 5%;
