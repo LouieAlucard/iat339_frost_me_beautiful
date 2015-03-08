@@ -108,6 +108,10 @@ p {
   margin-bottom: 2rem;
 }
 
+.col-3of10#product p{
+  text-align: justify;
+}
+
 #footer p {
   font-size: 0.8rem;
   text-align: center;
@@ -431,6 +435,7 @@ figure {
   width: 12rem;
 }
 
+
 select {
   display:block;
   margin-top:-30px;
@@ -445,7 +450,13 @@ select {
 
 .product#homepage{
   width: 100%;
-  height:200px;
+  height: auto;
+  opacity: 1;
+}
+
+.product#homepage:hover{
+  opacity: 0.5;
+  filter: alpha;
 }
 
 .ornament {
@@ -491,6 +502,7 @@ figure.home-banner {
 figure.home-banner img{
   width: 100%;
   height: auto;
+/*  -webkit-filter: blur(1px);*/
 }
 
 figure.home-banner figcaption {
@@ -505,6 +517,10 @@ figure.home-banner figcaption {
   bottom: 0.7rem;
   right: 0;
   padding-right: 1em;
+}
+
+figure.home-banner figcaption span{
+  display: block;
 }
 
 figure.cookie-category {
@@ -630,9 +646,9 @@ nav.navigation-side a.navigationButton:hover {
   font-family: "Gravity-Book", sans-serif; 
   font-size: 0.9vw;
   text-align: left;
-  background-color:#9DD8D7;
+  background-color: #9DD8D7;
   border-radius: 0.5em;
-  padding: 0.8em 1.2em;
+  padding: 0.2em 1.2em;
   margin-bottom: 3vw;
 }
 
@@ -840,6 +856,15 @@ table.payment tfoot td {
 
 
 /*========================= Style Guide style =======================*/
+nav.guide {
+  background-color: #9DD8D7;
+  padding: 0.4rem 0;
+}
+
+nav.guide a{
+  text-decoration: none;
+}
+
 section {
   position: relative;
   margin: 1em 0;
@@ -894,6 +919,7 @@ section#buttons a.button {
 }
 
 #navigationSideGuide {
-  width: 60%;
+  background-color: white;
+  width: 12%;
   text-align: center;
 }

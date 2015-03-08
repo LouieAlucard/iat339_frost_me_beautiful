@@ -25,7 +25,7 @@ $( document ).ready(function () {
 	    		+ '<img src="img/icon/Gmail.png" class="topIcon" alt="Gmail">'
 	    	+ '</a>'
 	    	+ '<a href="#"" class="navigationButton">My Account</a>'
-	    	+ '<a href="07_order.html" class="navigationButton" id="viewCart">View Cart(0)'
+	    	+ '<a href="07_order.html" class="navigationButton" id="viewCart">View Cart (0)'
 		    	+ '<div class="containerBubble">'
 		    		+ '<div class="bubble">item has been added</div>'
 		    	+ '</div>'

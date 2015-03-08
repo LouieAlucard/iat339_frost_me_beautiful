@@ -1,4 +1,17 @@
+var cartNum = 0;
+
 function showNotif() {
+	cartNum ++;
+	
+
+	var cart = document.getElementById("viewCart");
+
+
+	cart.innerHTML = "View Cart (" + cartNum  +")"
+		    	+ "<div class='containerBubble'>"
+		    		+ "<div class='bubble'>item has been added</div>"
+		    	+ "</div>";
+
 	var bubble = document.getElementsByClassName("bubble")[0];
 	fadeIn(bubble);
 
