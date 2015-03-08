@@ -31,6 +31,9 @@ $( document ).ready(function () {
 		    	+ '</div>'
 	    	+ '</a>'
     	+ '</nav>');
+
+    $("#footer").html('<p>All rights reserved Frost Me Beautiful. 121 East 1st Street North Vancouver. Phone: (604) 786-4303. Email: hello@FrostMeBeautiful.com</p>'
+	    + '<img src="img/icon/Ornament.png" class="ornament" alt="Ornament">');
 });
 
 

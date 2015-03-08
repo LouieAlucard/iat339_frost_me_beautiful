@@ -4,11 +4,13 @@
 		<meta charset="utf-8">
 		<title>Frost Me Beautiful</title>
 		<link href="css/main.css" rel="stylesheet">
+
+		<link href='http://fonts.googleapis.com/css?family=Alegreya:700italic,400' rel='stylesheet' type='text/css'>
 		
 	</head>
 	
 	<body>
-    <h1>Frost Me Beautiful Style Guide</h1>
+    <h1 class="guide">Frost Me Beautiful Style Guide</h1>
     
     <nav>
 		Go to:
@@ -30,8 +32,16 @@
 		<code>&lt;a href="#" class="button"&gt;Update&lt;/a&gt;</code>
 		<h3 class="guide">Rendered element:</h3>
 		<h1>Heading 1</h1>
-		<h2>Heading 2	</h2>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span class="bold">Bold Text</span>
+        <ul class="kit">
+        	<li>kit text list 1</li>
+        	<li>kit text list 2</li>
+        	<li>kit text list 3</li>
+        </ul>	
     </section>
 	
 	
@@ -42,17 +52,11 @@
 		<p class="guide">'#Blue'  '#Green'  '#Gray'  '#Black'</p>
 		<h3 class="guide">Sample code:</h3>
 		<code>&lt;div id="Blue"&gt;Light Blue #9DD8D7&lt;/div&gt;</code>
-		<!-- 
-		<div id="Blue">Light Blue #9DD8D7</div>
-		<div id="Green">Light Green #5ABE8C </div> 
-		<div id="Grey">Grey #847B7E</div> 
-		-->
-		<figure>
-		   <img src="img/Blue.jpg" height="150" width="100" alt="blue color">
-		   <img src="img/Green.jpg" height="150" width="100" alt="green color">
-		   <img src="img/Grey.jpg" height="150" width="100" alt="grey color">
-		   <img src="img/Black.jpg" height="150" width="100" alt="black color">
-        </figure>
+		<h3 class="guide">Rendered element:</h3>
+	    <img src="img/style_guide/Blue.jpg" alt="blue color">
+	    <img src="img/style_guide/Green.jpg" alt="green color">
+	    <img src="img/style_guide/Grey.jpg" alt="grey color">
+	    <img src="img/style_guide/Black.jpg" alt="black color">
     </section>
 
 	
@@ -61,12 +65,12 @@
 		<h2 class="guide">Default Button Style</h2>
 		<h3 class="guide">CSS selector:</h3>
 		<p class="guide">'a.button'</p>
-		<h3>Sample code:</h3>
+		<h3 class="guide">Sample code:</h3>
 		<code>&lt;a href="#" class="button"&gt;Update&lt;/a&gt;</code>
 		<h3 class="guide">Rendered element:</h3>
-		<a class="button" href="#">Update</a>
-		<a class="button" href="#">Check out</a>
-		<a class="button" id="addCart"href="#">Add to Cart</a>
+		<a class="button" id="proceed" href="#">Continue</a>
+		<a class="button" id="cancel" href="#">Cancel</a>
+		<a class="button" id="addCart" href="#">Add to Cart</a>
     </section>
 
 	
@@ -81,25 +85,72 @@
 		<h3 class="guide">Rendered element:</h3>
 
 		<form method="post" action="#">
-			<div class="input-wrapper">
-				<label for="form-name">User Name:</label>
-				<input type="text" id="User-name" placeholder=" Sarah B ">
-			</div>
+			<div class="col-4of10" id="payment"> 
+			
+				<h2>Billing Information</h2>
+				<div class="input-wrapper">
+					<label for="form-address">Address:</label>
+					<input type="text" id="address" placeholder=" 8888 University Rd ">
+				</div>
 
-			<div class="input-wrapper">
-				<label for="form-subject">Password:</label>
-				<input type="text" id="User-password" placeholder=" Enter password">
-			</div>
-			<p> Size </p>
-       </form>
+				<div class="input-wrapper">
+					<label for="form-subject">City:</label>
+					<input type="text" id="city" placeholder=" Vancouver">
+				</div>
 
-       <select>
-          <option value="Petite">P</option>
-          <option value="Small">S</option>
-          <option value="Medium">M</option>
-          <option value="Large">L</option>
-          <option value="X-Large">X-L</option>
-      </select>
+				<div class="input-wrapper">
+					<label for="form-province">Province:</label>
+					<select>
+						<option value="AB">Alberta</option>
+						<option value="BC">British Columbia</option>
+						<option value="MB">Manitoba</option>
+						<option value="NB">New Brunswick</option>
+						<option value="NL">Newfoundland and Labrador</option>
+						<option value="NS">Nova Scotia</option>
+						<option value="ON">Ontario</option>
+						<option value="PE">Prince Edward Island</option>
+						<option value="QC">Quebec</option>
+						<option value="SK">Saskatchewan</option>
+						<option value="NT">Northwest Territories</option>
+						<option value="NU">Nunavut</option>
+						<option value="YT">Yukon</option>
+					</select>
+				</div>
+				<div class="input-wrapper" id="cardType">			
+					<label for="form-cardType">Card Type:</label>
+					<input type="radio" name="cardType" value="credit" checked>
+					<input type="radio" name="cardType" value="paypal" >
+					<input type="radio" name="cardType" value="master" >
+				</div>
+
+				<div class="input-wrapper">
+					<label for="form-expire">Expire Date:</label>
+					<select class="expire" name="month" size="1">
+					    <option value="01">January</option>
+					    <option value="02">February</option>
+					    <option value="03">March</option>
+					    <option value="04">April</option>
+					    <option value="05">May</option>
+					    <option value="06">June</option>
+					    <option value="07">July</option>
+					    <option value="08">August</option>
+					    <option value="09">September</option>
+					    <option value="10">October</option>
+					    <option value="11">November</option>
+					    <option value="12">December</option>
+					</select>
+					<select class="expire" name="year">
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						
+					</select>
+				</div>
+		</form>
+
+  
     </section>
 
 	
@@ -110,19 +161,15 @@
 		<p  class="guide">'figure'</p>
 		<h3  class="guide">Sample code:</h3>
 		<code>&lt;img src="#" height="200" width="200" alt="#"&gt;</code>
-		<h5> Product Images </h5>
-		<figure>
-			<img src="img/c1.jpg" height="200" width="200" alt="Necklace cookie">
-			<img src="img/c2.jpg" height="200" width="200" alt="Dress cookie">
-			<img src="img/c3.jpg" height="200" width="200" alt="Cartoon cookie">
-			<img src="img/c4.jpg" height="200" width="200" alt="Cartoon cookie">
-			<img src="img/c5.jpg" height="200" width="200" alt="Penguin cookie">
-			<img src="img/c6.jpg" height="200" width="200" alt="Santa cookie">
-		</figure>
-		<h5> Icons </h5>
-		<figure>
-			<img src="img/icons.png" height="52" width="193" alt="icons">
-		</figure>
+		<h3 class="guide">Rendered element:</h3>
+		<img src="img/cookies/c1.jpg" height="200" width="200" alt="Necklace cookie">
+		<img src="img/cookies/c2.jpg" height="200" width="200" alt="Dress cookie">
+		<img src="img/cookies/c3.jpg" height="200" width="200" alt="Cartoon cookie">
+
+		<figure class="cookie-category">
+	        <a href=""><img src="img/category/category_birthday.jpg" alt=""></a>
+	        <figcaption>Birthday</figcaption>
+	    </figure>
     </section>
 
 	
@@ -131,20 +178,44 @@
 		<h2 class="guide">Navigation</h2>
 		<h3 class="guide">CSS selector:</h3>
 		<p class="guide">'#navigation ul li a'</p>
-		<h3>Sample code:</h3>
+		<h3 class="guide">Sample code:</h3>
 		<code>&lt;li&gt; &lt;a href="#" class="navigationButton"&gt; COOKIES &lt;/a&gt;</code>
+		<h3 class="guide">Rendered element:</h3>
 		
-		<div id="navigation">
-			<ul> <!-- style="color: red;" -->
-				<li><img></li>
-				<li><a href="#" class="navigationButton">ABOUT</a></li>
-				<li><a href="#" class="navigationButton" >COOKIES</a></li>
-				<li><a href="#" class="navigationButton">KITS</a></li>
-				<li><a href="#" class="navigationButton" >EVENTS</a></li>
-				<li><a href="#" class="navigationButton">TESTIMONIALS</a></li>
-				<li><a href="#" class="navigationButton">CONTACT US</a></li>
-			</ul>
-		</div>  
+		<div id="navigationSideGuide">
+			<div class="col-8of10" id="navigationCategory"> 
+				<nav>
+					<a href="02_cookies_fashion.html"><h2 class="active">Fashion</h2></a>
+					<a href="02_cookies_fashion.html"><h2>Birthday</h2></a>
+					<a href="02_cookies_fashion.html"><h2>Christmas</h2></a>
+					<a href="02_cookies_valentines.html"><h2>Valentines</h2></a>
+					<a href="02_cookies_valentines.html"><h2>Baby</h2></a>
+					<a href="02_cookies_valentines.html"><h2>Halloween</h2></a>
+					<a href="02_cookies_valentines.html"><h2>Wedding</h2></a>
+					<a href="02_cookies_fashion.html"><h2>Cartoons</h2></a>
+					<a href="02_cookies_fashion.html"><h2>Easter</h2></a>
+				</nav>
+			</div>
+
+			<div class='col-17of20'>
+				<nav class='navigation-side'>
+			    	<a href='01_about.html' class='navigationButton'>About</a>
+			    	<a href='02_cookies.html' class='navigationButton'>Cookies</a>
+			    	<a href='03_kits.html' class='navigationButton'>Kits</a>
+			    	<a href='04_events.html' class='navigationButton'>Events</a>
+			    	<a href='05_testimonials.html' class='navigationButton'>Testimonials</a>
+			    	<a href='06_contact.html' class='navigationButton'>Contact Us</a>"
+		    	</nav>
+	   		</div>
+	    	<div class='col-3of20' id='navigationSideColor'>
+	    		<div id='navigationSideBorder'></div>
+	    	</div>
+
+
+	    	
+	    </div>
+
+
 	</section>
 	  
 	  

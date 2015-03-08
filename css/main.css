@@ -108,6 +108,14 @@ p {
   margin-bottom: 2rem;
 }
 
+#footer p {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0.4rem 0;
+  background-color: rgba(157, 216, 215, 0.7);
+  margin: 0 5% 0.4rem 5%;
+}
+
 span.bold {
   font-weight: bold;
 }
@@ -238,6 +246,11 @@ ul, li #hoursList{
   text-align: left; 
   float: left;
   margin-left: 10%
+}
+
+#footer {
+  margin-top: 5vw;
+  margin-bottom: 4vw;
 }
 
 
@@ -511,9 +524,9 @@ figure.cookie-category img:hover {
 }
 
 figure.cookie-category figcaption {
-  font-family: "Gravity-Book", sans-serif; 
+  font-family: "Alegreya", sans-serif; 
   font-weight: normal;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   text-align: center;
   color: black;
   width: 100%;
@@ -828,8 +841,9 @@ table.payment tfoot td {
 
 /*========================= Style Guide style =======================*/
 section {
+  position: relative;
   margin: 1em 0;
-  padding: 0.5em 0;
+  padding: 1em 1rem;
   border-top: 1px solid #333;
 }
 
@@ -837,10 +851,17 @@ section .guide {
   font-family: sans-serif;
 }
 
+h1.guide  {
+  font-size: 3rem;
+}
+
 section h2.guide {
   font-size: 1.5rem;
   font-weight: bold;
   font-style: normal;
+  text-decoration: none;
+  border: none;
+  color: black;
 }
 
 section h3.guide {
@@ -850,6 +871,7 @@ section h3.guide {
 
 section p.guide {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 section code {
@@ -857,3 +879,21 @@ section code {
   padding: 0.2em 0.6em;
 }
 
+section figure.cookie-category {
+  width: 20%;
+}
+
+section img {
+  width: auto;
+  height: auto;
+}
+
+section#buttons a.button {
+  position: static;
+  float: left;
+}
+
+#navigationSideGuide {
+  width: 60%;
+  text-align: center;
+}
