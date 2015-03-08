@@ -115,9 +115,10 @@ p {
 #footer p {
   font-size: 0.8rem;
   text-align: center;
-  padding: 0.4rem 0;
   background-color: rgba(157, 216, 215, 0.7);
+  padding: 0.4rem 0;
   margin: 0 5% 0.4rem 5%;
+  border-radius: 0.5em;
 }
 
 span.bold {
@@ -644,7 +645,7 @@ nav.navigation-side a.navigationButton:hover {
 
 #topNavigation {
   font-family: "Gravity-Book", sans-serif; 
-  font-size: 0.9vw;
+  font-size: 1rem;
   text-align: left;
   background-color: #9DD8D7;
   border-radius: 0.5em;
@@ -657,12 +658,12 @@ nav.navigation-side a.navigationButton:hover {
   text-decoration: none;
   vertical-align: middle;
   display: inline-block;
-  width: 16%;
+  width: 15%;
   margin: 0.1em 0;
 }
 
 #topNavigation img {
-  width: 22%;
+  width: 30%;
 }
 
 a.navigationButton#viewCart {

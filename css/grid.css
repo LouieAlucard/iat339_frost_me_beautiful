@@ -110,6 +110,20 @@
 		font-size: 1.1rem;
 	}
 
+	#topNavigation a.navigationButton-a {
+		width: 25%;
+	}
+
+	#topNavigation img {
+	  width: 55%;
+	}
+
+	#topNavigation a.navigationButton-b {
+		width: 0%;
+		display: none;
+	}
+
+
 	#navigationCategory h2 {
 		width: 30%;
 	}
@@ -118,16 +132,32 @@
 		font-size: 1rem;
 	}
 
-	.col-8of10#payment h2 {
-  		width: 100%;
+	a.button#addCart {
+		position: static;
 	}
 
-	form label {
-	  width: 6rem;
-
+	.product#category{
+		width: 20%;
+	    margin-bottom: 6rem;  
 	}
 
 	.calendar{
   		width:100%;
 	}
+
+	.col-8of10#payment h2 {
+  		width: 100%;
+	}
+
+	form label {
+		text-align: left;
+		display: block;
+		margin-top: 1.5rem;
+		width: 100%;
+	}
+
+	a.button#proceed {
+		margin-right: 0;
+	}
+
 }
