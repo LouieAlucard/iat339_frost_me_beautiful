@@ -556,7 +556,14 @@ nav.navigation-side a:hover {
   vertical-align: middle;
   margin-right: 40px;
 }
-
+#footer{
+  font-family: "Gravity-Book", sans-serif; 
+  background-color:#9DD8D7;
+  border-radius:0.5em;
+  padding:1px;
+  margin-top: 5rem;
+  margin-bottom: 0.5rem;
+}
 .navigationButton#viewCart {
   position: relative;
 }
