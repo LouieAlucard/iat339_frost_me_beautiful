@@ -103,11 +103,11 @@
 	}
 
 	nav.navigation-side a.navigationButton {
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 	}
 
 	nav.navigation-side a.navigationButton:hover {
-		font-size: 1.1rem;
+		font-size: 1rem;
 	}
 
 	#topNavigation a.navigationButton-a {
