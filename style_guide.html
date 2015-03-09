@@ -4,224 +4,215 @@
 		<meta charset="utf-8">
 		<title>Frost Me Beautiful</title>
 		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/grid.css">
 
 		<link href='http://fonts.googleapis.com/css?family=Alegreya:700italic,400' rel='stylesheet' type='text/css'>
+
+		<script src="js/jquery-2.1.3.min.js"></script>
 		
 	</head>
 	
 	<body>
-    <h1 class="guide">Frost Me Beautiful Style Guide</h1>
-    
-    <nav class="guide">
-		Go to:
-		<a href="#TextualElements">TextualElements</a> |
-		<a href="#ColorPalette">ColorPallete</a> |
-		<a href="#buttons">Buttons</a> |
-		<a href="#FormElements">FormElements</a> |
-		<a href="#Images">Images&amp;Icons</a> |
-		<a href="#Navigation">Navigation</a>
-    </nav>
-	
-	
-	<!-- Textual Elements -->
-    <section id="TextualElements">
-		<h2 class="guide">Typography</h2>
-		<h3 class="guide">CSS selector:</h3>
-		<p class="guide">'h2' , 'h3', 'p' 'span'</p>
-		<h3 class="guide">Sample code:</h3>
-		<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
-		<h2>Heading 2</h2>
-		<h3>Heading 3</h3>
-		<h4>Heading 4</h4>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <span class="bold">Bold Text</span>
-        <ul class="kit">
-        	<li>kit text list 1</li>
-        	<li>kit text list 2</li>
-        	<li>kit text list 3</li>
-        </ul>	
-    </section>
-	
-	
-	<!-- Colour Palette Section -->
-    <section id="ColorPalette">
-		<h2 class="guide">Colour Palette</h2>
-		<h3 class="guide">CSS selector:</h3>
-		<p class="guide">'#Blue'  '#Green'  '#Gray'  '#Black'</p>
-		<h3 class="guide">Sample code:</h3>
-		<code>&lt;div id="Blue"&gt;Light Blue #9DD8D7&lt;/div&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
-	    <img src="img/style_guide/Blue.jpg" alt="blue color">
-	    <img src="img/style_guide/Green.jpg" alt="green color">
-	    <img src="img/style_guide/Grey.jpg" alt="grey color">
-	    <img src="img/style_guide/Black.jpg" alt="black color">
-    </section>
-
-	
-    <!-- Button Elements Section -->
-    <section id="buttons">
-		<h2 class="guide">Default Button Style</h2>
-		<h3 class="guide">CSS selector:</h3>
-		<p class="guide">'a.button#id'</p>
-		<h3 class="guide">Sample code:</h3>
-		<code>&lt;a href="#" class="button" id="proceed"&gt;Continue&lt;/a&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
-		<a class="button" id="proceed" href="#">Continue</a>
-		<a class="button" id="cancel" href="#">Cancel</a>
-		<a class="button" id="addCart" href="#">Add to Cart</a>
-    </section>
-
-	
-    <!-- Form Elements Section -->
-    <section id="FormElements">
-		<h2 class="guide">Form Elements</h2>
-		<h3 class="guide">CSS selector:</h3>
-		<p class="guide">'form', 'label'</p>
-		<h3 class="guide">Sample code:</h3>
-		<code>&lt;label for="#"&gt;Label Name:&lt;/label&gt;</code> |
-		<code>&lt;input type="text" id="#" placeholder="#"&lt;/input&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
-
-		<form method="post" action="#">
-			<div class="col-4of10" id="payment"> 
-			
-				<h2>Billing Information</h2>
-				<div class="input-wrapper">
-					<label>Address:</label>
-					<input type="text" id="address" placeholder=" 8888 University Rd ">
-				</div>
-
-				<div class="input-wrapper">
-					<label>City:</label>
-					<input type="text" id="city" placeholder=" Vancouver">
-				</div>
-
-				<div class="input-wrapper">
-					<label>Province:</label>
-					<select>
-						<option value="AB">Alberta</option>
-						<option value="BC">British Columbia</option>
-						<option value="MB">Manitoba</option>
-						<option value="NB">New Brunswick</option>
-						<option value="NL">Newfoundland and Labrador</option>
-						<option value="NS">Nova Scotia</option>
-						<option value="ON">Ontario</option>
-						<option value="PE">Prince Edward Island</option>
-						<option value="QC">Quebec</option>
-						<option value="SK">Saskatchewan</option>
-						<option value="NT">Northwest Territories</option>
-						<option value="NU">Nunavut</option>
-						<option value="YT">Yukon</option>
-					</select>
-				</div>
-				<div class="input-wrapper" id="cardType">			
-					<label>Card Type:</label>
-					<input type="radio" name="cardType" value="credit" checked>
-					<input type="radio" name="cardType" value="paypal" >
-					<input type="radio" name="cardType" value="master" >
-				</div>
-
-				<div class="input-wrapper">
-					<label>Expire Date:</label>
-					<select class="expire" name="month" size="1">
-					    <option value="01">January</option>
-					    <option value="02">February</option>
-					    <option value="03">March</option>
-					    <option value="04">April</option>
-					    <option value="05">May</option>
-					    <option value="06">June</option>
-					    <option value="07">July</option>
-					    <option value="08">August</option>
-					    <option value="09">September</option>
-					    <option value="10">October</option>
-					    <option value="11">November</option>
-					    <option value="12">December</option>
-					</select>
-					<select class="expire" name="year">
-						<option value="2019">2019</option>
-						<option value="2018">2018</option>
-						<option value="2017">2017</option>
-						<option value="2016">2016</option>
-						<option value="2015">2015</option>
-						
-					</select>
-				</div>
+		<div class="grid">
+			<div class="col-2of12" id="navigationSide">
+				<div class='col-17of20'>
+			    	<nav class='navigation-side'>
+			    		<h1 class="guide">Frost Me Beautiful Style Guide</h1>
+				    	<a href="#TextualElements" class='navigationButton'>TextualElements</a>
+						<a href="#ColorPalette" class='navigationButton'>ColorPallete</a> 
+						<a href="#buttons" class='navigationButton'>Buttons</a> 
+						<a href="#FormElements" class='navigationButton'>FormElements</a> 
+						<a href="#Images" class='navigationButton'>Images&amp;Icons</a> 
+						<a href="#Navigation" class='navigationButton'>Navigation</a>
+			    	</nav>
+			    </div>
+		    	<div class='col-3of20' id='navigationSideColor'>
+		    		<div id='navigationSideBorder'></div>
+		    	</div>
 			</div>
-		</form>
-
-  
-    </section>
-
-	
-    <!-- Images & Icons Section -->
-    <section id="Images">
-		<h2  class="guide">Images</h2>
-		<h3  class="guide">CSS selector:</h3>
-		<p  class="guide">'figure', 'image', 'figcaption'</p>
-		<h3  class="guide">Sample code:</h3>
-		<code>&lt;figure class="cookie-category"&gt;</code>
-		<code>&lt;img src="#" class="product" alt="#"&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
-		<img src="img/cookies/c1.jpg" alt="Necklace cookie">
-		<img src="img/cookies/c2.jpg" alt="Dress cookie">
-		<img src="img/cookies/c3.jpg" alt="Cartoon cookie">
-
-		<figure class="cookie-category">
-	        <a href=""><img src="img/category/category_birthday.jpg" alt=""></a>
-	        <figcaption>Birthday</figcaption>
-	    </figure>
-    </section>
-
-	
-	<!-- Navigation Section -->
-    <section id="Navigation">
-		<h2 class="guide">Navigation</h2>
-		<h3 class="guide">CSS selector:</h3>
-		<p class="guide">'nav.navigation-side a'</p>
-		<p class="guide">'#navigationCategory h2'</p>
-		<h3 class="guide">Sample code:</h3>
-		<code>&lt;a href="#"&gt;&lt;h2 class="active"&gt;Fashion&lt;/h2&gt;&lt;/a&gt;</code>
-		<h3 class="guide">Rendered element:</h3>
+			<div class="col-2of12" id="navigationSideBack">a</div>
 		
-		
-			<div class="col-8of10" id="navigationCategory"> 
-				<nav>
-					<a href="02_cookies_fashion.html"><h2 class="active">Fashion</h2></a>
-					<a href="02_cookies_fashion.html"><h2>Birthday</h2></a>
-					<a href="02_cookies_fashion.html"><h2>Christmas</h2></a>
-					<a href="02_cookies_valentines.html"><h2>Valentines</h2></a>
-					<a href="02_cookies_valentines.html"><h2>Baby</h2></a>
-					<a href="02_cookies_valentines.html"><h2>Halloween</h2></a>
-					<a href="02_cookies_valentines.html"><h2>Wedding</h2></a>
-					<a href="02_cookies_fashion.html"><h2>Cartoons</h2></a>
-					<a href="02_cookies_fashion.html"><h2>Easter</h2></a>
-				</nav>
+
+			<div class="col-10of12 guide">
+			   
+				
+				<!-- Textual Elements -->
+			    <section id="TextualElements">
+					<h2 class="guide">Typography</h2>
+					<h3 class="guide">CSS selector:</h3>
+					<p class="guide">'h2' , 'h3', 'p' 'span'</p>
+					<h3 class="guide">Sample code:</h3>
+					<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+					<h2>Heading 2</h2>
+					<h3>Heading 3</h3>
+					<h4>Heading 4</h4>
+			        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			        <span class="bold">Bold Text</span>
+			        <ul class="kit">
+			        	<li>kit text list 1</li>
+			        	<li>kit text list 2</li>
+			        	<li>kit text list 3</li>
+			        </ul>	
+			    </section>
+				
+				
+				<!-- Colour Palette Section -->
+			    <section id="ColorPalette">
+					<h2 class="guide">Colour Palette</h2>
+					<h3 class="guide">CSS selector:</h3>
+					<p class="guide">'#Blue'  '#Green'  '#Gray'  '#Black'</p>
+					<h3 class="guide">Sample code:</h3>
+					<code>&lt;div id="Blue"&gt;Light Blue #9DD8D7&lt;/div&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+				    <img src="img/style_guide/Blue.jpg" alt="blue color">
+				    <img src="img/style_guide/Green.jpg" alt="green color">
+				    <img src="img/style_guide/Grey.jpg" alt="grey color">
+				    <img src="img/style_guide/Black.jpg" alt="black color">
+			    </section>
+
+				
+			    <!-- Button Elements Section -->
+			    <section id="buttons">
+					<h2 class="guide">Default Button Style</h2>
+					<h3 class="guide">CSS selector:</h3>
+					<p class="guide">'a.button#id'</p>
+					<h3 class="guide">Sample code:</h3>
+					<code>&lt;a href="#" class="button" id="proceed"&gt;Continue&lt;/a&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+					<a class="button" id="proceed" href="#">Continue</a>
+					<a class="button" id="cancel" href="#">Cancel</a>
+					<a class="button addCart" href="#">Add to Cart</a>
+			    </section>
+
+				
+			    <!-- Form Elements Section -->
+			    <section id="FormElements">
+					<h2 class="guide">Form Elements</h2>
+					<h3 class="guide">CSS selector:</h3>
+					<p class="guide">'form', 'label'</p>
+					<h3 class="guide">Sample code:</h3>
+					<code>&lt;label for="#"&gt;Label Name:&lt;/label&gt;</code> |
+					<code>&lt;input type="text" id="#" placeholder="#"&lt;/input&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+
+					<form method="post" action="#">
+						<h2>Billing Information</h2>
+						<div class="input-wrapper">
+							<label>Address:</label>
+							<input type="text" id="address" placeholder=" 8888 University Rd ">
+						</div>
+
+						<div class="input-wrapper">
+							<label>City:</label>
+							<input type="text" id="city" placeholder=" Vancouver">
+						</div>
+
+						<div class="input-wrapper">
+							<label>Province:</label>
+							<select>
+								<option value="AB">Alberta</option>
+								<option value="BC">British Columbia</option>
+								<option value="MB">Manitoba</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NL">Newfoundland and Labrador</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="ON">Ontario</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="QC">Quebec</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="YT">Yukon</option>
+							</select>
+						</div>
+						<div class="input-wrapper" id="cardType">			
+							<label>Card Type:</label>
+							<input type="radio" name="cardType" value="credit" checked>
+							<input type="radio" name="cardType" value="paypal" >
+							<input type="radio" name="cardType" value="master" >
+						</div>
+
+						<div class="input-wrapper">
+							<label>Expire Date:</label>
+							<select class="expire" name="month" size="1">
+							    <option value="01">January</option>
+							    <option value="02">February</option>
+							    <option value="03">March</option>
+							    <option value="04">April</option>
+							    <option value="05">May</option>
+							    <option value="06">June</option>
+							    <option value="07">July</option>
+							    <option value="08">August</option>
+							    <option value="09">September</option>
+							    <option value="10">October</option>
+							    <option value="11">November</option>
+							    <option value="12">December</option>
+							</select>
+							<select class="expire" name="year">
+								<option value="2019">2019</option>
+								<option value="2018">2018</option>
+								<option value="2017">2017</option>
+								<option value="2016">2016</option>
+								<option value="2015">2015</option>
+								
+							</select>
+						</div>
+					</form>
+			    </section>
+
+				
+			    <!-- Images & Icons Section -->
+			    <section id="Images">
+					<h2  class="guide">Images</h2>
+					<h3  class="guide">CSS selector:</h3>
+					<p  class="guide">'figure', 'image', 'figcaption'</p>
+					<h3  class="guide">Sample code:</h3>
+					<code>&lt;figure class="cookie-category"&gt;</code>
+					<code>&lt;img src="#" class="product" alt="#"&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+					<img src="img/cookies/c1.jpg" alt="Necklace cookie">
+					<img src="img/cookies/c2.jpg" alt="Dress cookie">
+					<img src="img/cookies/c3.jpg" alt="Cartoon cookie">
+
+					<figure class="cookie-category">
+				        <a href=""><img src="img/category/category_birthday.jpg" alt=""></a>
+				        <figcaption>Birthday</figcaption>
+				    </figure>
+			    </section>
+
+				
+				<!-- Navigation Section -->
+			    <section id="Navigation">
+					<h2 class="guide">Navigation</h2>
+					<h3 class="guide">CSS selector:</h3>
+					<p class="guide">'nav.navigation-side a'</p>
+					<p class="guide">'#navigationCategory h2'</p>
+					<h3 class="guide">Sample code:</h3>
+					<code>&lt;a href="#"&gt;&lt;h2 class="active"&gt;Fashion&lt;/h2&gt;&lt;/a&gt;</code>
+					<h3 class="guide">Rendered element:</h3>
+					
+				
+					<div class="col-8of10" id="navigationCategory"> 
+						<nav>
+							<a href="02_cookies_fashion.html"><h2 class="active">Fashion</h2></a>
+							<a href="02_cookies_fashion.html"><h2>Birthday</h2></a>
+							<a href="02_cookies_fashion.html"><h2>Christmas</h2></a>
+							<a href="02_cookies_valentines.html"><h2>Valentines</h2></a>
+							<a href="02_cookies_valentines.html"><h2>Baby</h2></a>
+							<a href="02_cookies_valentines.html"><h2>Halloween</h2></a>
+							<a href="02_cookies_valentines.html"><h2>Wedding</h2></a>
+							<a href="02_cookies_fashion.html"><h2>Cartoons</h2></a>
+							<a href="02_cookies_fashion.html"><h2>Easter</h2></a>
+						</nav>
+					</div>
+
+					
+
+
+				</section>
 			</div>
-
-		<div id="navigationSideGuide">
-
-			<div class='col-17of20'>
-				<nav class='navigation-side'>
-			    	<a href='01_about.html' class='navigationButton'>About</a>
-			    	<a href='02_cookies.html' class='navigationButton'>Cookies</a>
-			    	<a href='03_kits.html' class='navigationButton'>Kits</a>
-			    	<a href='04_events.html' class='navigationButton'>Events</a>
-			    	<a href='05_testimonials.html' class='navigationButton'>Testimonials</a>
-			    	<a href='06_contact.html' class='navigationButton'>Contact Us</a>
-		    	</nav>
-	   		</div>
-	    	<div class='col-3of20' id='navigationSideColor'>
-	    		<div id='navigationSideBorder'></div>
-	    	</div>
-
-
-	    	
-	    </div>
-
-
-	</section>
+		</div> 
 	  
-	  
-  </body>
+  	</body>
 </html>
