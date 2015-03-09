@@ -15,7 +15,7 @@ $( document ).ready(function () {
 
     $("#topNavigation").html('<nav>'
 	    	+ '<a href="06_contact.html" class="navigationButton-b">contact</a>'
-	    	+ '<a href=https://www.facebook.com/frostmebeautiful" class="navigationButton-a">'
+	    	+ '<a href="https://www.facebook.com/frostmebeautiful" class="navigationButton-a">'
 	    		+ '<img src="img/icon/facebook.png" class="topIcon" alt="Facebook">'
 	    	+ '</a>'
 	    	+ '<a href="https://instagram.com/frostmebeautiful/" class="navigationButton-a">'
