@@ -1,7 +1,7 @@
 $( document ).ready(function () {
     $("#navigationSide").html("<div class='col-17of20'>"
     	+ "<nav class='navigation-side'>"
-    		+ "<a href='index.html'><img class='logo' src='img/icon/logo.png' alt='Logo'></a>"
+    		+ "<a href='index.html'><img class='logo' src='img/icon/logo4.png' alt='Logo'></a>"
 	    	+ "<a href='01_about.html' class='navigationButton'>About</a><a href='02_cookies.html' class='navigationButton'>Cookies</a>"
 	    	+ "<a href='03_kits.html' class='navigationButton'>Kits</a>"
 	    	+ "<a href='04_events.html' class='navigationButton'>Events</a>"

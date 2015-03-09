@@ -1,6 +1,6 @@
 /* Font Import */
 /* Gravity */
-@font-face{
+/*@font-face{
   font-family: "Gravity";
   font-weight: bold;
   font-style: normal;
@@ -23,7 +23,7 @@
   src: url('fonts/Gravity/Gravity-Book.eot');
   src: url('fonts/Gravity/Gravity-Book.eot?#iefix') format ('embedded-opentype'),
   url('fonts/Gravity-Book.ttf') format ('truetype');
-}
+}*/
 
 
 /* Gravity-Book */
@@ -126,7 +126,7 @@ span.bold {
 }
 
 .link{
-  font-family: "Gravity";
+  font-family: "Gravity-Book";
   font-weight: bold;
   color:black;
 }
@@ -208,7 +208,8 @@ ul, li #hoursList{
 
 .col-3of10.product {
   position: relative;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .col-2of10.itemCategory {
@@ -445,7 +446,7 @@ select {
 }
 
 .logo {
-  width: 80%;
+  width: 85%;
   margin: 1rem auto;
   z-index: -1;
 }
@@ -458,7 +459,6 @@ select {
 
 .product.homepage:hover{
   opacity: 0.5;
-  filter: alpha;
 }
 
 .ornament {
@@ -486,14 +486,6 @@ figure.owner figcaption{
   font-style: italic;
   color: grey;
   padding-top: 0.2rem;
-}
-
-.calendar{
-  width:130%;
-}
-
-.events{
-  width:100%;
 }
 
 figure.home-banner {
@@ -538,7 +530,6 @@ figure.cookie-category img {
 
 figure.cookie-category img:hover {
   opacity: 0.5;
-  filter: alpha;
 }
 
 figure.cookie-category figcaption {
@@ -569,8 +560,16 @@ img.kit {
 }
 
 .priceInfo {
-  width: 75%;
+  width: 90%;
   margin-bottom: 4rem; 
+}
+
+.calendar{
+  width:130%;
+}
+
+.events{
+  width:100%;
 }
 
 
