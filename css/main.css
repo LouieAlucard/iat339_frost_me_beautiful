@@ -108,7 +108,7 @@ p {
   margin-bottom: 2rem;
 }
 
-.col-3of10#product p{
+.col-3of10.product p{
   text-align: justify;
 }
 
